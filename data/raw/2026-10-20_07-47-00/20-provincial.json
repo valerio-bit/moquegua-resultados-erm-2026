@@ -1,0 +1,455 @@
+{
+ "captureMethod": "manual-browser-capture",
+ "capturedAt": "2026-10-20T13:37:08Z",
+ "privacyNote": "dniCandidato reemplazado por \"[omitido]\" (minimización de datos personales).",
+ "pageNote": "Resumen General, bloque Municipal provincial, MOQUEGUA > cada provincia. Ilo: 1 acta enviada al JEE (99.567 %). Algunos nombres traen el texto literal 'null' como segundo apellido en la fuente.",
+ "captures": [
+  {
+   "kind": "totales",
+   "electionId": 3,
+   "scope": {
+    "department": "170000",
+    "province": "170300"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=3&tipoFiltro=ubigeo_nivel_02&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170300",
+   "response": {
+    "data": {
+     "actasContabilizadas": 99.567,
+     "contabilizadas": 230,
+     "totalActas": 231,
+     "participacionCiudadana": 77.402,
+     "actasEnviadasJee": 0.433,
+     "enviadasJee": 1,
+     "actasPendientesJee": 0.0,
+     "pendientesJee": 0,
+     "fechaActualizacion": "2026-10-20T13:30:27.267Z",
+     "idUbigeoDepartamento": 170000,
+     "idUbigeoProvincia": 170300,
+     "idUbigeoDistrito": null,
+     "idUbigeoDistritoElectoral": null,
+     "totalVotosEmitidos": 53098,
+     "totalVotosValidos": 47376,
+     "porcentajeVotosEmitidos": 100,
+     "porcentajeVotosValidos": 100
+    },
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "participantes",
+   "electionId": 3,
+   "scope": {
+    "department": "170000",
+    "province": "170300"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/participantes?idEleccion=3&tipoFiltro=ubigeo_nivel_02&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170300",
+   "response": {
+    "data": [
+     {
+      "nombreAgrupacionPolitica": "VISIÓN PERÚ",
+      "codigoAgrupacionPolitica": 127,
+      "nombreCandidato": "SONIA MARISOL CCORI HUAMAN",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 33,
+      "porcentajeVotosValidos": 0.07,
+      "porcentajeVotosEmitidos": 0.062
+     },
+     {
+      "nombreAgrupacionPolitica": "COOPERACION, VERDAD Y HONRADEZ",
+      "codigoAgrupacionPolitica": 138,
+      "nombreCandidato": "EUGENIO ZACARIAS GIL QUISPE",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 39,
+      "porcentajeVotosValidos": 0.082,
+      "porcentajeVotosEmitidos": 0.073
+     },
+     {
+      "nombreAgrupacionPolitica": "PERÚ MODERNO",
+      "codigoAgrupacionPolitica": 109,
+      "nombreCandidato": "MIGUEL ANGEL PHATTI CAUNA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 271,
+      "porcentajeVotosValidos": 0.572,
+      "porcentajeVotosEmitidos": 0.51
+     },
+     {
+      "nombreAgrupacionPolitica": "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+      "codigoAgrupacionPolitica": 107,
+      "nombreCandidato": "DAVID ROMERO ALCCALAICO",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 349,
+      "porcentajeVotosValidos": 0.737,
+      "porcentajeVotosEmitidos": 0.657
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO DEL BUEN GOBIERNO",
+      "codigoAgrupacionPolitica": 121,
+      "nombreCandidato": "WILLAM DAVID VALDIVIA DAVILA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 444,
+      "porcentajeVotosValidos": 0.937,
+      "porcentajeVotosEmitidos": 0.836
+     },
+     {
+      "nombreAgrupacionPolitica": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+      "codigoAgrupacionPolitica": 113,
+      "nombreCandidato": "DANIEL MANUEL FERNANDEZ PAZOS",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 457,
+      "porcentajeVotosValidos": 0.965,
+      "porcentajeVotosEmitidos": 0.861
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "codigoAgrupacionPolitica": 110,
+      "nombreCandidato": "EDGAR FREDY PUMA HUACAC",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 1024,
+      "porcentajeVotosValidos": 2.161,
+      "porcentajeVotosEmitidos": 1.929
+     },
+     {
+      "nombreAgrupacionPolitica": "ALIANZA PARA EL PROGRESO",
+      "codigoAgrupacionPolitica": 95,
+      "nombreCandidato": "JENCY CAVIEDES BEDREGAL",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 1133,
+      "porcentajeVotosValidos": 2.392,
+      "porcentajeVotosEmitidos": 2.134
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "codigoAgrupacionPolitica": 118,
+      "nombreCandidato": "DARIO NORBERTO CARDENAS NUÑEZ",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 1214,
+      "porcentajeVotosValidos": 2.562,
+      "porcentajeVotosEmitidos": 2.286
+     },
+     {
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "codigoAgrupacionPolitica": 96,
+      "nombreCandidato": "PEDRO NOGUERA PRADO",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 1364,
+      "porcentajeVotosValidos": 2.879,
+      "porcentajeVotosEmitidos": 2.569
+     },
+     {
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "codigoAgrupacionPolitica": 93,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 2538,
+      "porcentajeVotosValidos": 5.357,
+      "porcentajeVotosEmitidos": 4.78
+     },
+     {
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "codigoAgrupacionPolitica": 122,
+      "nombreCandidato": "MIGUEL ANGEL CARBAJAL DE LA GALA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 6445,
+      "porcentajeVotosValidos": 13.604,
+      "porcentajeVotosEmitidos": 12.138
+     },
+     {
+      "nombreAgrupacionPolitica": "AHORA NACIÓN - AN",
+      "codigoAgrupacionPolitica": 123,
+      "nombreCandidato": "FREDY HERNAN MAMANI CALLALLA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 7786,
+      "porcentajeVotosValidos": 16.434,
+      "porcentajeVotosEmitidos": 14.663
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+      "codigoAgrupacionPolitica": 102,
+      "nombreCandidato": "RICHARD GUILLERMO REVOLLAR null",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 11962,
+      "porcentajeVotosValidos": 25.249,
+      "porcentajeVotosEmitidos": 22.528
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO PATRIÓTICO DEL PERÚ",
+      "codigoAgrupacionPolitica": 104,
+      "nombreCandidato": "BLADEMIR ACERO OLIVA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 12317,
+      "porcentajeVotosValidos": 25.998,
+      "porcentajeVotosEmitidos": 23.197
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "totales",
+   "electionId": 3,
+   "scope": {
+    "department": "170000",
+    "province": "170100"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=3&tipoFiltro=ubigeo_nivel_02&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100",
+   "response": {
+    "data": {
+     "actasContabilizadas": 100.0,
+     "contabilizadas": 281,
+     "totalActas": 281,
+     "participacionCiudadana": 80.603,
+     "actasEnviadasJee": 0.0,
+     "enviadasJee": 0,
+     "actasPendientesJee": 0.0,
+     "pendientesJee": 0,
+     "fechaActualizacion": "2026-10-20T13:30:27.267Z",
+     "idUbigeoDepartamento": 170000,
+     "idUbigeoProvincia": 170100,
+     "idUbigeoDistrito": null,
+     "idUbigeoDistritoElectoral": null,
+     "totalVotosEmitidos": 66004,
+     "totalVotosValidos": 59145,
+     "porcentajeVotosEmitidos": 100,
+     "porcentajeVotosValidos": 100
+    },
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "participantes",
+   "electionId": 3,
+   "scope": {
+    "department": "170000",
+    "province": "170100"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/participantes?idEleccion=3&tipoFiltro=ubigeo_nivel_02&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100",
+   "response": {
+    "data": [
+     {
+      "nombreAgrupacionPolitica": "PARTIDO PAÍS PARA TODOS",
+      "codigoAgrupacionPolitica": 120,
+      "nombreCandidato": "JUAN CARLOS DIAZ QUINTANILLA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 258,
+      "porcentajeVotosValidos": 0.436,
+      "porcentajeVotosEmitidos": 0.391
+     },
+     {
+      "nombreAgrupacionPolitica": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+      "codigoAgrupacionPolitica": 98,
+      "nombreCandidato": "SANDRA MARIA GONZALES GOMEZ",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 268,
+      "porcentajeVotosValidos": 0.453,
+      "porcentajeVotosEmitidos": 0.406
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO DEL BUEN GOBIERNO",
+      "codigoAgrupacionPolitica": 121,
+      "nombreCandidato": "JESSICA LETICIA SOTO GONZALES",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 514,
+      "porcentajeVotosValidos": 0.869,
+      "porcentajeVotosEmitidos": 0.779
+     },
+     {
+      "nombreAgrupacionPolitica": "PERÚ MODERNO",
+      "codigoAgrupacionPolitica": 109,
+      "nombreCandidato": "EDWING PERCY FERNANDEZ ARIAS",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 557,
+      "porcentajeVotosValidos": 0.942,
+      "porcentajeVotosEmitidos": 0.844
+     },
+     {
+      "nombreAgrupacionPolitica": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+      "codigoAgrupacionPolitica": 113,
+      "nombreCandidato": "DIANIRA ANGELICA MEZA MENDOZA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 1004,
+      "porcentajeVotosValidos": 1.698,
+      "porcentajeVotosEmitidos": 1.521
+     },
+     {
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "codigoAgrupacionPolitica": 96,
+      "nombreCandidato": "ANGEL WILDER PAREDES CUADROS",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 1119,
+      "porcentajeVotosValidos": 1.892,
+      "porcentajeVotosEmitidos": 1.695
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "codigoAgrupacionPolitica": 110,
+      "nombreCandidato": "JULIO CESAR ESPINOZA ROMERO",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 1228,
+      "porcentajeVotosValidos": 2.076,
+      "porcentajeVotosEmitidos": 1.86
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "codigoAgrupacionPolitica": 118,
+      "nombreCandidato": "ALEJANDRO JOSE MENDOZA null",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 1339,
+      "porcentajeVotosValidos": 2.264,
+      "porcentajeVotosEmitidos": 2.029
+     },
+     {
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "codigoAgrupacionPolitica": 122,
+      "nombreCandidato": "ELVIS RIDER CORDOVA NINA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 5535,
+      "porcentajeVotosValidos": 9.358,
+      "porcentajeVotosEmitidos": 8.386
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO SICREO",
+      "codigoAgrupacionPolitica": 116,
+      "nombreCandidato": "JASSON ANDRES ZUÑIGA PACHO",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 5856,
+      "porcentajeVotosValidos": 9.901,
+      "porcentajeVotosEmitidos": 8.872
+     },
+     {
+      "nombreAgrupacionPolitica": "ALIANZA PARA EL PROGRESO",
+      "codigoAgrupacionPolitica": 95,
+      "nombreCandidato": "SANTOS EULOGIO VILLEGAS MAMANI",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 9270,
+      "porcentajeVotosValidos": 15.673,
+      "porcentajeVotosEmitidos": 14.045
+     },
+     {
+      "nombreAgrupacionPolitica": "AHORA NACIÓN - AN",
+      "codigoAgrupacionPolitica": 123,
+      "nombreCandidato": "FREDDY PORFIRIO NIEBLES CUAYLA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 14930,
+      "porcentajeVotosValidos": 25.243,
+      "porcentajeVotosEmitidos": 22.62
+     },
+     {
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "codigoAgrupacionPolitica": 93,
+      "nombreCandidato": "JAKELIN GALVAN NINARAQUI PELAIZA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 17267,
+      "porcentajeVotosValidos": 29.194,
+      "porcentajeVotosEmitidos": 26.161
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "totales",
+   "electionId": 3,
+   "scope": {
+    "department": "170000",
+    "province": "170200"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=3&tipoFiltro=ubigeo_nivel_02&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170200",
+   "response": {
+    "data": {
+     "actasContabilizadas": 100.0,
+     "contabilizadas": 60,
+     "totalActas": 60,
+     "participacionCiudadana": 77.216,
+     "actasEnviadasJee": 0.0,
+     "enviadasJee": 0,
+     "actasPendientesJee": 0.0,
+     "pendientesJee": 0,
+     "fechaActualizacion": "2026-10-20T13:30:27.267Z",
+     "idUbigeoDepartamento": 170000,
+     "idUbigeoProvincia": 170200,
+     "idUbigeoDistrito": null,
+     "idUbigeoDistritoElectoral": null,
+     "totalVotosEmitidos": 12109,
+     "totalVotosValidos": 10384,
+     "porcentajeVotosEmitidos": 100,
+     "porcentajeVotosValidos": 100
+    },
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "participantes",
+   "electionId": 3,
+   "scope": {
+    "department": "170000",
+    "province": "170200"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/participantes?idEleccion=3&tipoFiltro=ubigeo_nivel_02&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170200",
+   "response": {
+    "data": [
+     {
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "codigoAgrupacionPolitica": 96,
+      "nombreCandidato": "GLENY MILEYDA FLORES DUEÑAS",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 550,
+      "porcentajeVotosValidos": 5.297,
+      "porcentajeVotosEmitidos": 4.542
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+      "codigoAgrupacionPolitica": 94,
+      "nombreCandidato": "EDGAR SILVA CHARA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 1050,
+      "porcentajeVotosValidos": 10.112,
+      "porcentajeVotosEmitidos": 8.671
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "codigoAgrupacionPolitica": 118,
+      "nombreCandidato": "FELICIANO REYNALDO MENDOZA COSI",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 1461,
+      "porcentajeVotosValidos": 14.07,
+      "porcentajeVotosEmitidos": 12.065
+     },
+     {
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "codigoAgrupacionPolitica": 122,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 1742,
+      "porcentajeVotosValidos": 16.776,
+      "porcentajeVotosEmitidos": 14.386
+     },
+     {
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "codigoAgrupacionPolitica": 93,
+      "nombreCandidato": "MAXIMO ROLANDO RAMOS APAZA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 2666,
+      "porcentajeVotosValidos": 25.674,
+      "porcentajeVotosEmitidos": 22.017
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "codigoAgrupacionPolitica": 110,
+      "nombreCandidato": "PRESCILIO ALEJANDRO MAMANI EUGENIO",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 2915,
+      "porcentajeVotosValidos": 28.072,
+      "porcentajeVotosEmitidos": 24.073
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,281 @@
+{
+ "captureMethod": "manual-browser-capture",
+ "capturedAt": "2026-10-20T07:56:41Z",
+ "pageNote": "Participación Ciudadana, filtro MOQUEGUA > GENERAL SÁNCHEZ CERRO. Cabecera: Total de actas 60; 100 % contabilizadas; ACTUALIZADO AL 20/10/2026 A LAS 02:52:00 a. m.",
+ "captures": [
+  {
+   "kind": "participacion-totales",
+   "scope": {
+    "department": "170000",
+    "province": "170200"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/totales?idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_02&ubigeoNivel01=170000&ubigeoNivel02=170200",
+   "response": {
+    "data": {
+     "totalElectoresHabiles": 15682,
+     "totalAsistentes": 12109,
+     "totalAusentes": 3573,
+     "porcentajeAsistentes": 77.216,
+     "porcentajeAusentes": 22.784,
+     "ubigeoNivel01": null,
+     "ubigeoNivel02": null,
+     "ubigeoNivel03": null,
+     "idLocalVotacion": null
+    },
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "participacion-hijos",
+   "scope": {
+    "department": "170000",
+    "province": "170200"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/ubigeos-total?idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_02&ubigeoNivel01=170000&ubigeoNivel02=170200",
+   "response": {
+    "data": [
+     {
+      "porcentajeAsistentes": 81.903,
+      "porcentajeAusentes": 18.097,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170203,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 79.395,
+      "porcentajeAusentes": 20.605,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170205,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 79.304,
+      "porcentajeAusentes": 20.696,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170202,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 72.427,
+      "porcentajeAusentes": 27.573,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170204,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 77.549,
+      "porcentajeAusentes": 22.451,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170211,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 78.261,
+      "porcentajeAusentes": 21.739,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170209,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 80.608,
+      "porcentajeAusentes": 19.392,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170208,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 82.802,
+      "porcentajeAusentes": 17.198,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170206,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 77.353,
+      "porcentajeAusentes": 22.647,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170207,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 78.065,
+      "porcentajeAusentes": 21.935,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170201,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 72.92,
+      "porcentajeAusentes": 27.08,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170210,
+      "idLocalVotacion": null
+     }
+    ],
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "participacion-mapa-calor",
+   "scope": {
+    "department": "170000",
+    "province": "170200"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/mapa-calor?idAmbitoGeografico=1&idEleccion=3&tipoFiltro=ubigeo_nivel_02&ubigeoNivel01=170000&ubigeoNivel02=170200",
+   "response": {
+    "data": [
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170203,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 81.903,
+      "asistentes": 792
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170205,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 79.395,
+      "asistentes": 682
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170202,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 79.304,
+      "asistentes": 843
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170204,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 72.427,
+      "asistentes": 2083
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170211,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 77.549,
+      "asistentes": 639
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170209,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 78.261,
+      "asistentes": 468
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170208,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 80.608,
+      "asistentes": 1829
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170206,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 82.802,
+      "asistentes": 597
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170207,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 77.353,
+      "asistentes": 567
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170201,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 78.065,
+      "asistentes": 1961
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": 170210,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 72.92,
+      "asistentes": 1648
+     }
+    ],
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  }
+ ],
+ "capturedAtNote": "Hora UTC de escritura del archivo (inmediatamente posterior a la captura en el navegador).",
+ "pageTimestamp": "2026-10-20T07:52:00Z",
+ "pageTimestampNote": "Hora de corte mostrada en la cabecera de la página de ONPE ('ACTUALIZADO AL ...', hora de Lima UTC-5) convertida a UTC."
+}

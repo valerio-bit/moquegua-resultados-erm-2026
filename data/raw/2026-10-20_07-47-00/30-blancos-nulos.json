@@ -1,0 +1,2171 @@
+{
+ "captureMethod": "manual-browser-capture",
+ "capturedAt": "2026-10-20T13:41:08Z",
+ "privacyNote": "dniCandidato reemplazado por \"[omitido]\" (minimización de datos personales).",
+ "pageNote": "Elecciones Municipales (pestañas provincial y distrital) y Elecciones Regionales (pestaña Consejo regional): servicio participantes-ubicacion-geografica-nombre por ámbito. Corte ONPE 2026-10-20 ~13:30 UTC.",
+ "captures": [
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170200",
+    "district": "170203"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-distrital/participantes-ubicacion-geografica-nombre?idEleccion=4&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel1=170000&ubigeoNivel2=170200&ubigeoNivel3=170203",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "110",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 34.975,
+      "porcentajeVotosValidos": 38.366,
+      "totalVotosValidos": 277
+     },
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 28.03,
+      "porcentajeVotosValidos": 30.748,
+      "totalVotosValidos": 222
+     },
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 17.803,
+      "porcentajeVotosValidos": 19.529,
+      "totalVotosValidos": 141
+     },
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 10.354,
+      "porcentajeVotosValidos": 11.357,
+      "totalVotosValidos": 82
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 6.439,
+      "totalVotosValidos": 51
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.399,
+      "totalVotosValidos": 19
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170200",
+    "district": "170202"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-distrital/participantes-ubicacion-geografica-nombre?idEleccion=4&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel1=170000&ubigeoNivel2=170200&ubigeoNivel3=170202",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "110",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 30.012,
+      "porcentajeVotosValidos": 34.143,
+      "totalVotosValidos": 253
+     },
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 25.741,
+      "porcentajeVotosValidos": 29.285,
+      "totalVotosValidos": 217
+     },
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 18.387,
+      "porcentajeVotosValidos": 20.918,
+      "totalVotosValidos": 155
+     },
+     {
+      "codigoAgrupacionPolitica": "95",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ALIANZA PARA EL PROGRESO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 13.76,
+      "porcentajeVotosValidos": 15.655,
+      "totalVotosValidos": 116
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 9.964,
+      "totalVotosValidos": 84
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.135,
+      "totalVotosValidos": 18
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170200",
+    "district": "170204"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-distrital/participantes-ubicacion-geografica-nombre?idEleccion=4&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel1=170000&ubigeoNivel2=170200&ubigeoNivel3=170204",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 30.773,
+      "porcentajeVotosValidos": 34.223,
+      "totalVotosValidos": 641
+     },
+     {
+      "codigoAgrupacionPolitica": "110",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 20.691,
+      "porcentajeVotosValidos": 23.011,
+      "totalVotosValidos": 431
+     },
+     {
+      "codigoAgrupacionPolitica": "100",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PODEMOS PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 19.107,
+      "porcentajeVotosValidos": 21.249,
+      "totalVotosValidos": 398
+     },
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 11.954,
+      "porcentajeVotosValidos": 13.294,
+      "totalVotosValidos": 249
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 6.577,
+      "totalVotosValidos": 137
+     },
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 4.081,
+      "porcentajeVotosValidos": 4.538,
+      "totalVotosValidos": 85
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 3.505,
+      "totalVotosValidos": 73
+     },
+     {
+      "codigoAgrupacionPolitica": "95",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ALIANZA PARA EL PROGRESO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 3.313,
+      "porcentajeVotosValidos": 3.684,
+      "totalVotosValidos": 69
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170200",
+    "district": "170205"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-distrital/participantes-ubicacion-geografica-nombre?idEleccion=4&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel1=170000&ubigeoNivel2=170200&ubigeoNivel3=170205",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 59.971,
+      "porcentajeVotosValidos": 64.613,
+      "totalVotosValidos": 409
+     },
+     {
+      "codigoAgrupacionPolitica": "94",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 30.792,
+      "porcentajeVotosValidos": 33.175,
+      "totalVotosValidos": 210
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 4.985,
+      "totalVotosValidos": 34
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.199,
+      "totalVotosValidos": 15
+     },
+     {
+      "codigoAgrupacionPolitica": "110",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.053,
+      "porcentajeVotosValidos": 2.212,
+      "totalVotosValidos": 14
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170200",
+    "district": "170206"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-distrital/participantes-ubicacion-geografica-nombre?idEleccion=4&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel1=170000&ubigeoNivel2=170200&ubigeoNivel3=170206",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "95",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ALIANZA PARA EL PROGRESO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 35.678,
+      "porcentajeVotosValidos": 39.227,
+      "totalVotosValidos": 213
+     },
+     {
+      "codigoAgrupacionPolitica": "110",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 28.643,
+      "porcentajeVotosValidos": 31.492,
+      "totalVotosValidos": 171
+     },
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 25.628,
+      "porcentajeVotosValidos": 28.177,
+      "totalVotosValidos": 153
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 6.198,
+      "totalVotosValidos": 37
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.848,
+      "totalVotosValidos": 17
+     },
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 1.005,
+      "porcentajeVotosValidos": 1.105,
+      "totalVotosValidos": 6
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170200",
+    "district": "170207"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-distrital/participantes-ubicacion-geografica-nombre?idEleccion=4&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel1=170000&ubigeoNivel2=170200&ubigeoNivel3=170207",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 33.686,
+      "porcentajeVotosValidos": 36.45,
+      "totalVotosValidos": 191
+     },
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 21.693,
+      "porcentajeVotosValidos": 23.473,
+      "totalVotosValidos": 123
+     },
+     {
+      "codigoAgrupacionPolitica": "110",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 20.459,
+      "porcentajeVotosValidos": 22.137,
+      "totalVotosValidos": 116
+     },
+     {
+      "codigoAgrupacionPolitica": "123",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "AHORA NACIÓN - AN",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 6.349,
+      "porcentajeVotosValidos": 6.87,
+      "totalVotosValidos": 36
+     },
+     {
+      "codigoAgrupacionPolitica": "100",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PODEMOS PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 6.173,
+      "porcentajeVotosValidos": 6.679,
+      "totalVotosValidos": 35
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 4.762,
+      "totalVotosValidos": 27
+     },
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 4.056,
+      "porcentajeVotosValidos": 4.389,
+      "totalVotosValidos": 23
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.822,
+      "totalVotosValidos": 16
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170200",
+    "district": "170208"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-distrital/participantes-ubicacion-geografica-nombre?idEleccion=4&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel1=170000&ubigeoNivel2=170200&ubigeoNivel3=170208",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "110",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 38.983,
+      "porcentajeVotosValidos": 45.911,
+      "totalVotosValidos": 713
+     },
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 24.932,
+      "porcentajeVotosValidos": 29.363,
+      "totalVotosValidos": 456
+     },
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 20.995,
+      "porcentajeVotosValidos": 24.726,
+      "totalVotosValidos": 384
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 13.45,
+      "totalVotosValidos": 246
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 1.64,
+      "totalVotosValidos": 30
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170200",
+    "district": "170209"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-distrital/participantes-ubicacion-geografica-nombre?idEleccion=4&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel1=170000&ubigeoNivel2=170200&ubigeoNivel3=170209",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "110",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 52.564,
+      "porcentajeVotosValidos": 55.405,
+      "totalVotosValidos": 246
+     },
+     {
+      "codigoAgrupacionPolitica": "123",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "AHORA NACIÓN - AN",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 28.205,
+      "porcentajeVotosValidos": 29.73,
+      "totalVotosValidos": 132
+     },
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 7.906,
+      "porcentajeVotosValidos": 8.333,
+      "totalVotosValidos": 37
+     },
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 6.197,
+      "porcentajeVotosValidos": 6.532,
+      "totalVotosValidos": 29
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 4.06,
+      "totalVotosValidos": 19
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 1.068,
+      "totalVotosValidos": 5
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170200",
+    "district": "170210"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-distrital/participantes-ubicacion-geografica-nombre?idEleccion=4&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel1=170000&ubigeoNivel2=170200&ubigeoNivel3=170210",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 23.786,
+      "porcentajeVotosValidos": 27.703,
+      "totalVotosValidos": 392
+     },
+     {
+      "codigoAgrupacionPolitica": "95",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ALIANZA PARA EL PROGRESO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 17.597,
+      "porcentajeVotosValidos": 20.495,
+      "totalVotosValidos": 290
+     },
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 16.626,
+      "porcentajeVotosValidos": 19.364,
+      "totalVotosValidos": 274
+     },
+     {
+      "codigoAgrupacionPolitica": "94",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 15.716,
+      "porcentajeVotosValidos": 18.304,
+      "totalVotosValidos": 259
+     },
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 12.136,
+      "porcentajeVotosValidos": 14.134,
+      "totalVotosValidos": 200
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 10.68,
+      "totalVotosValidos": 176
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 3.459,
+      "totalVotosValidos": 57
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170200",
+    "district": "170211"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-distrital/participantes-ubicacion-geografica-nombre?idEleccion=4&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel1=170000&ubigeoNivel2=170200&ubigeoNivel3=170211",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 28.951,
+      "porcentajeVotosValidos": 32.918,
+      "totalVotosValidos": 185
+     },
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 22.222,
+      "porcentajeVotosValidos": 25.267,
+      "totalVotosValidos": 142
+     },
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 21.127,
+      "porcentajeVotosValidos": 24.021,
+      "totalVotosValidos": 135
+     },
+     {
+      "codigoAgrupacionPolitica": "110",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 15.649,
+      "porcentajeVotosValidos": 17.794,
+      "totalVotosValidos": 100
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 8.607,
+      "totalVotosValidos": 55
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 3.443,
+      "totalVotosValidos": 22
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170300",
+    "district": "170302"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-distrital/participantes-ubicacion-geografica-nombre?idEleccion=4&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel1=170000&ubigeoNivel2=170300&ubigeoNivel3=170302",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "110",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 26.184,
+      "porcentajeVotosValidos": 27.822,
+      "totalVotosValidos": 774
+     },
+     {
+      "codigoAgrupacionPolitica": "113",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 20.196,
+      "porcentajeVotosValidos": 21.459,
+      "totalVotosValidos": 597
+     },
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 7.747,
+      "porcentajeVotosValidos": 8.231,
+      "totalVotosValidos": 229
+     },
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 7.341,
+      "porcentajeVotosValidos": 7.8,
+      "totalVotosValidos": 217
+     },
+     {
+      "codigoAgrupacionPolitica": "96",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 7.07,
+      "porcentajeVotosValidos": 7.513,
+      "totalVotosValidos": 209
+     },
+     {
+      "codigoAgrupacionPolitica": "123",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "AHORA NACIÓN - AN",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 6.834,
+      "porcentajeVotosValidos": 7.261,
+      "totalVotosValidos": 202
+     },
+     {
+      "codigoAgrupacionPolitica": "109",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PERÚ MODERNO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 6.766,
+      "porcentajeVotosValidos": 7.189,
+      "totalVotosValidos": 200
+     },
+     {
+      "codigoAgrupacionPolitica": "100",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PODEMOS PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 6.732,
+      "porcentajeVotosValidos": 7.153,
+      "totalVotosValidos": 199
+     },
+     {
+      "codigoAgrupacionPolitica": "102",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.977,
+      "porcentajeVotosValidos": 3.163,
+      "totalVotosValidos": 88
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.977,
+      "totalVotosValidos": 88
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.909,
+      "totalVotosValidos": 86
+     },
+     {
+      "codigoAgrupacionPolitica": "95",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ALIANZA PARA EL PROGRESO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.267,
+      "porcentajeVotosValidos": 2.408,
+      "totalVotosValidos": 67
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170300",
+    "district": "170303"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-distrital/participantes-ubicacion-geografica-nombre?idEleccion=4&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel1=170000&ubigeoNivel2=170300&ubigeoNivel3=170303",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 38.407,
+      "porcentajeVotosValidos": 42.165,
+      "totalVotosValidos": 1461
+     },
+     {
+      "codigoAgrupacionPolitica": "102",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 32.965,
+      "porcentajeVotosValidos": 36.19,
+      "totalVotosValidos": 1254
+     },
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 9.122,
+      "porcentajeVotosValidos": 10.014,
+      "totalVotosValidos": 347
+     },
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 7.124,
+      "porcentajeVotosValidos": 7.821,
+      "totalVotosValidos": 271
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 5.179,
+      "totalVotosValidos": 197
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 3.733,
+      "totalVotosValidos": 142
+     },
+     {
+      "codigoAgrupacionPolitica": "123",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "AHORA NACIÓN - AN",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 3.47,
+      "porcentajeVotosValidos": 3.81,
+      "totalVotosValidos": 132
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170102"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-distrital/participantes-ubicacion-geografica-nombre?idEleccion=4&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel1=170000&ubigeoNivel2=170100&ubigeoNivel3=170102",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "95",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ALIANZA PARA EL PROGRESO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 47.068,
+      "porcentajeVotosValidos": 56.418,
+      "totalVotosValidos": 923
+     },
+     {
+      "codigoAgrupacionPolitica": "116",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO SICREO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 22.285,
+      "porcentajeVotosValidos": 26.711,
+      "totalVotosValidos": 437
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 14.482,
+      "totalVotosValidos": 284
+     },
+     {
+      "codigoAgrupacionPolitica": "104",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO PATRIÓTICO DEL PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 11.882,
+      "porcentajeVotosValidos": 14.242,
+      "totalVotosValidos": 233
+     },
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.193,
+      "porcentajeVotosValidos": 2.628,
+      "totalVotosValidos": 43
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.091,
+      "totalVotosValidos": 41
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170103"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-distrital/participantes-ubicacion-geografica-nombre?idEleccion=4&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel1=170000&ubigeoNivel2=170100&ubigeoNivel3=170103",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 45.116,
+      "porcentajeVotosValidos": 51.142,
+      "totalVotosValidos": 448
+     },
+     {
+      "codigoAgrupacionPolitica": "95",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ALIANZA PARA EL PROGRESO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 33.233,
+      "porcentajeVotosValidos": 37.671,
+      "totalVotosValidos": 330
+     },
+     {
+      "codigoAgrupacionPolitica": "116",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO SICREO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 9.869,
+      "porcentajeVotosValidos": 11.187,
+      "totalVotosValidos": 98
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 8.862,
+      "totalVotosValidos": 88
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.92,
+      "totalVotosValidos": 29
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170106"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-distrital/participantes-ubicacion-geografica-nombre?idEleccion=4&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel1=170000&ubigeoNivel2=170100&ubigeoNivel3=170106",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "95",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ALIANZA PARA EL PROGRESO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 40.09,
+      "porcentajeVotosValidos": 44.038,
+      "totalVotosValidos": 2393
+     },
+     {
+      "codigoAgrupacionPolitica": "100",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PODEMOS PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 35.617,
+      "porcentajeVotosValidos": 39.124,
+      "totalVotosValidos": 2126
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 4.808,
+      "totalVotosValidos": 287
+     },
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 4.322,
+      "porcentajeVotosValidos": 4.748,
+      "totalVotosValidos": 258
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 4.155,
+      "totalVotosValidos": 248
+     },
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 4.121,
+      "porcentajeVotosValidos": 4.527,
+      "totalVotosValidos": 246
+     },
+     {
+      "codigoAgrupacionPolitica": "110",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 3.317,
+      "porcentajeVotosValidos": 3.644,
+      "totalVotosValidos": 198
+     },
+     {
+      "codigoAgrupacionPolitica": "113",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.161,
+      "porcentajeVotosValidos": 2.374,
+      "totalVotosValidos": 129
+     },
+     {
+      "codigoAgrupacionPolitica": "96",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 1.407,
+      "porcentajeVotosValidos": 1.546,
+      "totalVotosValidos": 84
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170107"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-distrital/participantes-ubicacion-geografica-nombre?idEleccion=4&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel1=170000&ubigeoNivel2=170100&ubigeoNivel3=170107",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "123",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "AHORA NACIÓN - AN",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 40.603,
+      "porcentajeVotosValidos": 43.732,
+      "totalVotosValidos": 7235
+     },
+     {
+      "codigoAgrupacionPolitica": "110",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 20.214,
+      "porcentajeVotosValidos": 21.772,
+      "totalVotosValidos": 3602
+     },
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 17.201,
+      "porcentajeVotosValidos": 18.526,
+      "totalVotosValidos": 3065
+     },
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 6.544,
+      "porcentajeVotosValidos": 7.048,
+      "totalVotosValidos": 1166
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 3.85,
+      "totalVotosValidos": 686
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 3.305,
+      "totalVotosValidos": 589
+     },
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 3.216,
+      "porcentajeVotosValidos": 3.463,
+      "totalVotosValidos": 573
+     },
+     {
+      "codigoAgrupacionPolitica": "96",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.458,
+      "porcentajeVotosValidos": 2.647,
+      "totalVotosValidos": 438
+     },
+     {
+      "codigoAgrupacionPolitica": "109",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PERÚ MODERNO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 1.066,
+      "porcentajeVotosValidos": 1.148,
+      "totalVotosValidos": 190
+     },
+     {
+      "codigoAgrupacionPolitica": "102",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 0.797,
+      "porcentajeVotosValidos": 0.858,
+      "totalVotosValidos": 142
+     },
+     {
+      "codigoAgrupacionPolitica": "113",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 0.746,
+      "porcentajeVotosValidos": 0.804,
+      "totalVotosValidos": 133
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170104"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-distrital/participantes-ubicacion-geografica-nombre?idEleccion=4&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel1=170000&ubigeoNivel2=170100&ubigeoNivel3=170104",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "110",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 38.664,
+      "porcentajeVotosValidos": 41.701,
+      "totalVotosValidos": 706
+     },
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 34.94,
+      "porcentajeVotosValidos": 37.685,
+      "totalVotosValidos": 638
+     },
+     {
+      "codigoAgrupacionPolitica": "116",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO SICREO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 19.113,
+      "porcentajeVotosValidos": 20.614,
+      "totalVotosValidos": 349
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 5.367,
+      "totalVotosValidos": 98
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 1.917,
+      "totalVotosValidos": 35
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170105"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-distrital/participantes-ubicacion-geografica-nombre?idEleccion=4&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel1=170000&ubigeoNivel2=170100&ubigeoNivel3=170105",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "113",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 41.499,
+      "porcentajeVotosValidos": 44.307,
+      "totalVotosValidos": 2934
+     },
+     {
+      "codigoAgrupacionPolitica": "95",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ALIANZA PARA EL PROGRESO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 37.1,
+      "porcentajeVotosValidos": 39.61,
+      "totalVotosValidos": 2623
+     },
+     {
+      "codigoAgrupacionPolitica": "100",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PODEMOS PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 5.771,
+      "porcentajeVotosValidos": 6.161,
+      "totalVotosValidos": 408
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 3.564,
+      "totalVotosValidos": 252
+     },
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.9,
+      "porcentajeVotosValidos": 3.096,
+      "totalVotosValidos": 205
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.772,
+      "totalVotosValidos": 196
+     },
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.673,
+      "porcentajeVotosValidos": 2.854,
+      "totalVotosValidos": 189
+     },
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 1.895,
+      "porcentajeVotosValidos": 2.024,
+      "totalVotosValidos": 134
+     },
+     {
+      "codigoAgrupacionPolitica": "110",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 0.919,
+      "porcentajeVotosValidos": 0.982,
+      "totalVotosValidos": 65
+     },
+     {
+      "codigoAgrupacionPolitica": "109",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PERÚ MODERNO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 0.905,
+      "porcentajeVotosValidos": 0.966,
+      "totalVotosValidos": 64
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 3,
+   "scope": {
+    "department": "170000",
+    "province": "170200"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-provincial/participantes-ubicacion-geografica-nombre?idEleccion=3&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_02&ubigeoNivel1=170000&ubigeoNivel2=170200",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "110",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 24.073,
+      "porcentajeVotosValidos": 28.072,
+      "totalVotosValidos": 2915
+     },
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 22.017,
+      "porcentajeVotosValidos": 25.674,
+      "totalVotosValidos": 2666
+     },
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 14.386,
+      "porcentajeVotosValidos": 16.776,
+      "totalVotosValidos": 1742
+     },
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 12.065,
+      "porcentajeVotosValidos": 14.07,
+      "totalVotosValidos": 1461
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 10.835,
+      "totalVotosValidos": 1312
+     },
+     {
+      "codigoAgrupacionPolitica": "94",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 8.671,
+      "porcentajeVotosValidos": 10.112,
+      "totalVotosValidos": 1050
+     },
+     {
+      "codigoAgrupacionPolitica": "96",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 4.542,
+      "porcentajeVotosValidos": 5.297,
+      "totalVotosValidos": 550
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 3.411,
+      "totalVotosValidos": 413
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 3,
+   "scope": {
+    "department": "170000",
+    "province": "170300"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-provincial/participantes-ubicacion-geografica-nombre?idEleccion=3&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_02&ubigeoNivel1=170000&ubigeoNivel2=170300",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "104",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO PATRIÓTICO DEL PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 23.197,
+      "porcentajeVotosValidos": 25.998,
+      "totalVotosValidos": 12317
+     },
+     {
+      "codigoAgrupacionPolitica": "102",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 22.528,
+      "porcentajeVotosValidos": 25.249,
+      "totalVotosValidos": 11962
+     },
+     {
+      "codigoAgrupacionPolitica": "123",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "AHORA NACIÓN - AN",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 14.663,
+      "porcentajeVotosValidos": 16.434,
+      "totalVotosValidos": 7786
+     },
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 12.138,
+      "porcentajeVotosValidos": 13.604,
+      "totalVotosValidos": 6445
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 6.025,
+      "totalVotosValidos": 3199
+     },
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 4.78,
+      "porcentajeVotosValidos": 5.357,
+      "totalVotosValidos": 2538
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 4.752,
+      "totalVotosValidos": 2523
+     },
+     {
+      "codigoAgrupacionPolitica": "96",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.569,
+      "porcentajeVotosValidos": 2.879,
+      "totalVotosValidos": 1364
+     },
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.286,
+      "porcentajeVotosValidos": 2.562,
+      "totalVotosValidos": 1214
+     },
+     {
+      "codigoAgrupacionPolitica": "95",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ALIANZA PARA EL PROGRESO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.134,
+      "porcentajeVotosValidos": 2.392,
+      "totalVotosValidos": 1133
+     },
+     {
+      "codigoAgrupacionPolitica": "110",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 1.929,
+      "porcentajeVotosValidos": 2.161,
+      "totalVotosValidos": 1024
+     },
+     {
+      "codigoAgrupacionPolitica": "113",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 0.861,
+      "porcentajeVotosValidos": 0.965,
+      "totalVotosValidos": 457
+     },
+     {
+      "codigoAgrupacionPolitica": "121",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO DEL BUEN GOBIERNO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 0.836,
+      "porcentajeVotosValidos": 0.937,
+      "totalVotosValidos": 444
+     },
+     {
+      "codigoAgrupacionPolitica": "107",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 0.657,
+      "porcentajeVotosValidos": 0.737,
+      "totalVotosValidos": 349
+     },
+     {
+      "codigoAgrupacionPolitica": "109",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PERÚ MODERNO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 0.51,
+      "porcentajeVotosValidos": 0.572,
+      "totalVotosValidos": 271
+     },
+     {
+      "codigoAgrupacionPolitica": "138",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "COOPERACION, VERDAD Y HONRADEZ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 0.073,
+      "porcentajeVotosValidos": 0.082,
+      "totalVotosValidos": 39
+     },
+     {
+      "codigoAgrupacionPolitica": "127",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VISIÓN PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 0.062,
+      "porcentajeVotosValidos": 0.07,
+      "totalVotosValidos": 33
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 3,
+   "scope": {
+    "department": "170000",
+    "province": "170100"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-provincial/participantes-ubicacion-geografica-nombre?idEleccion=3&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_02&ubigeoNivel1=170000&ubigeoNivel2=170100",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 26.161,
+      "porcentajeVotosValidos": 29.194,
+      "totalVotosValidos": 17267
+     },
+     {
+      "codigoAgrupacionPolitica": "123",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "AHORA NACIÓN - AN",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 22.62,
+      "porcentajeVotosValidos": 25.243,
+      "totalVotosValidos": 14930
+     },
+     {
+      "codigoAgrupacionPolitica": "95",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ALIANZA PARA EL PROGRESO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 14.045,
+      "porcentajeVotosValidos": 15.673,
+      "totalVotosValidos": 9270
+     },
+     {
+      "codigoAgrupacionPolitica": "116",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO SICREO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 8.872,
+      "porcentajeVotosValidos": 9.901,
+      "totalVotosValidos": 5856
+     },
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 8.386,
+      "porcentajeVotosValidos": 9.358,
+      "totalVotosValidos": 5535
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 5.303,
+      "totalVotosValidos": 3500
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 5.089,
+      "totalVotosValidos": 3359
+     },
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.029,
+      "porcentajeVotosValidos": 2.264,
+      "totalVotosValidos": 1339
+     },
+     {
+      "codigoAgrupacionPolitica": "110",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 1.86,
+      "porcentajeVotosValidos": 2.076,
+      "totalVotosValidos": 1228
+     },
+     {
+      "codigoAgrupacionPolitica": "96",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 1.695,
+      "porcentajeVotosValidos": 1.892,
+      "totalVotosValidos": 1119
+     },
+     {
+      "codigoAgrupacionPolitica": "113",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 1.521,
+      "porcentajeVotosValidos": 1.698,
+      "totalVotosValidos": 1004
+     },
+     {
+      "codigoAgrupacionPolitica": "109",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PERÚ MODERNO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 0.844,
+      "porcentajeVotosValidos": 0.942,
+      "totalVotosValidos": 557
+     },
+     {
+      "codigoAgrupacionPolitica": "121",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO DEL BUEN GOBIERNO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 0.779,
+      "porcentajeVotosValidos": 0.869,
+      "totalVotosValidos": 514
+     },
+     {
+      "codigoAgrupacionPolitica": "98",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 0.406,
+      "porcentajeVotosValidos": 0.453,
+      "totalVotosValidos": 268
+     },
+     {
+      "codigoAgrupacionPolitica": "120",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO PAÍS PARA TODOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 0.391,
+      "porcentajeVotosValidos": 0.436,
+      "totalVotosValidos": 258
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 2,
+   "scope": {
+    "department": "170000",
+    "province": "170200"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-consejero/participantes-ubicacion-geografica-nombre?idEleccion=2&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_02&ubigeoNivel1=170000&ubigeoNivel2=170200",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 28.318,
+      "porcentajeVotosValidos": 40.28,
+      "totalVotosValidos": 3429
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 26.311,
+      "totalVotosValidos": 3186
+     },
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 12.082,
+      "porcentajeVotosValidos": 17.185,
+      "totalVotosValidos": 1463
+     },
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 11.264,
+      "porcentajeVotosValidos": 16.023,
+      "totalVotosValidos": 1364
+     },
+     {
+      "codigoAgrupacionPolitica": "155",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "KAUSACHUN",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 6.119,
+      "porcentajeVotosValidos": 8.704,
+      "totalVotosValidos": 741
+     },
+     {
+      "codigoAgrupacionPolitica": "96",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 5.112,
+      "porcentajeVotosValidos": 7.271,
+      "totalVotosValidos": 619
+     },
+     {
+      "codigoAgrupacionPolitica": "156",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VAMOS MOQUEGUA",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 3.435,
+      "porcentajeVotosValidos": 4.887,
+      "totalVotosValidos": 416
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 3.386,
+      "totalVotosValidos": 410
+     },
+     {
+      "codigoAgrupacionPolitica": "100",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PODEMOS PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.469,
+      "porcentajeVotosValidos": 3.512,
+      "totalVotosValidos": 299
+     },
+     {
+      "codigoAgrupacionPolitica": "121",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO DEL BUEN GOBIERNO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 1.173,
+      "porcentajeVotosValidos": 1.668,
+      "totalVotosValidos": 142
+     },
+     {
+      "codigoAgrupacionPolitica": "135",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ALIANZA ELECTORAL VENCEREMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 0.33,
+      "porcentajeVotosValidos": 0.47,
+      "totalVotosValidos": 40
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 2,
+   "scope": {
+    "department": "170000",
+    "province": "170300"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-consejero/participantes-ubicacion-geografica-nombre?idEleccion=2&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_02&ubigeoNivel1=170000&ubigeoNivel2=170300",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "155",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "KAUSACHUN",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 21.419,
+      "porcentajeVotosValidos": 27.714,
+      "totalVotosValidos": 11415
+     },
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 18.866,
+      "porcentajeVotosValidos": 24.409,
+      "totalVotosValidos": 10054
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 17.37,
+      "totalVotosValidos": 9257
+     },
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 14.049,
+      "porcentajeVotosValidos": 18.177,
+      "totalVotosValidos": 7487
+     },
+     {
+      "codigoAgrupacionPolitica": "96",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 6.736,
+      "porcentajeVotosValidos": 8.716,
+      "totalVotosValidos": 3590
+     },
+     {
+      "codigoAgrupacionPolitica": "100",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PODEMOS PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 5.766,
+      "porcentajeVotosValidos": 7.461,
+      "totalVotosValidos": 3073
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 5.342,
+      "totalVotosValidos": 2847
+     },
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 4.539,
+      "porcentajeVotosValidos": 5.873,
+      "totalVotosValidos": 2419
+     },
+     {
+      "codigoAgrupacionPolitica": "121",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO DEL BUEN GOBIERNO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.91,
+      "porcentajeVotosValidos": 3.766,
+      "totalVotosValidos": 1551
+     },
+     {
+      "codigoAgrupacionPolitica": "135",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ALIANZA ELECTORAL VENCEREMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 1.788,
+      "porcentajeVotosValidos": 2.314,
+      "totalVotosValidos": 953
+     },
+     {
+      "codigoAgrupacionPolitica": "156",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VAMOS MOQUEGUA",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 1.214,
+      "porcentajeVotosValidos": 1.571,
+      "totalVotosValidos": 647
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 2,
+   "scope": {
+    "department": "170000",
+    "province": "170100"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-consejero/participantes-ubicacion-geografica-nombre?idEleccion=2&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_02&ubigeoNivel1=170000&ubigeoNivel2=170100",
+   "reconstruction": "Filas de organizaciones reconstruidas desde la captura 'participantes' del mismo ámbito (mismos votos y porcentajes); filas VOTOS EN BLANCO (80) y VOTOS NULOS (81) transcritas de esta respuesta. Orden: votos descendente.",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 29.675,
+      "porcentajeVotosValidos": 40.0,
+      "totalVotosValidos": 19587
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 21.085,
+      "totalVotosValidos": 13917
+     },
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 9.486,
+      "porcentajeVotosValidos": 12.786,
+      "totalVotosValidos": 6261
+     },
+     {
+      "codigoAgrupacionPolitica": "155",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "KAUSACHUN",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 8.16,
+      "porcentajeVotosValidos": 10.999,
+      "totalVotosValidos": 5386
+     },
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 7.378,
+      "porcentajeVotosValidos": 9.945,
+      "totalVotosValidos": 4870
+     },
+     {
+      "codigoAgrupacionPolitica": "96",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 7.21,
+      "porcentajeVotosValidos": 9.719,
+      "totalVotosValidos": 4759
+     },
+     {
+      "codigoAgrupacionPolitica": "100",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PODEMOS PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 5.28,
+      "porcentajeVotosValidos": 7.117,
+      "totalVotosValidos": 3485
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 4.725,
+      "totalVotosValidos": 3119
+     },
+     {
+      "codigoAgrupacionPolitica": "156",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VAMOS MOQUEGUA",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 3.469,
+      "porcentajeVotosValidos": 4.677,
+      "totalVotosValidos": 2290
+     },
+     {
+      "codigoAgrupacionPolitica": "121",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO DEL BUEN GOBIERNO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 2.812,
+      "porcentajeVotosValidos": 3.79,
+      "totalVotosValidos": 1856
+     },
+     {
+      "codigoAgrupacionPolitica": "135",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ALIANZA ELECTORAL VENCEREMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 0.718,
+      "porcentajeVotosValidos": 0.968,
+      "totalVotosValidos": 474
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  }
+ ]
+}

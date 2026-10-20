@@ -1,0 +1,10 @@
+{
+  "source": "ONPE: catálogo https://resultadoelectoral.onpe.gob.pe/assets/ubig/v1.json (registro c_nombre=MOQUEGUA, c_ubigeo=170000) y opciones del selector 'Municipal distrital' de la página Resumen General, consultados el 20/10/2026.",
+  "department": { "ubigeo": "170000", "name": "MOQUEGUA" },
+  "districtElectionOptions": {
+    "170100": ["CARUMAS", "CUCHUMBAYA", "SAMEGUA", "SAN ANTONIO", "SAN CRISTÓBAL", "TORATA"],
+    "170200": ["CHOJATA", "COALAQUE", "ICHUÑA", "LA CAPILLA", "LLOQUE", "MATALAQUE", "PUQUINA", "QUINISTAQUILLAS", "UBINAS", "YUNGA"],
+    "170300": ["EL ALGARROBAL", "PACOCHA"]
+  },
+  "note": "Los distritos capitales (MOQUEGUA, OMATE, ILO) no figuran en el selector de alcaldía distrital de ONPE: su gobierno local corresponde a la municipalidad provincial."
+}

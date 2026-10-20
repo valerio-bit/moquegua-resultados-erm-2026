@@ -1,0 +1,193 @@
+{
+ "captureMethod": "manual-browser-capture",
+ "capturedAt": "2026-10-20T07:59:11Z",
+ "pageNote": "Participación Ciudadana, filtro MOQUEGUA > ILO y cada distrito. Cabecera al capturar Pacocha: ACTUALIZADO AL 20/10/2026 A LAS 02:55:40 a. m.",
+ "captures": [
+  {
+   "kind": "participacion-totales",
+   "scope": {
+    "department": "170000",
+    "province": "170300"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/totales?idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_02&ubigeoNivel01=170000&ubigeoNivel02=170300",
+   "response": {
+    "data": {
+     "totalElectoresHabiles": 68600,
+     "totalAsistentes": 53098,
+     "totalAusentes": 15202,
+     "porcentajeAsistentes": 77.402,
+     "porcentajeAusentes": 22.16,
+     "ubigeoNivel01": null,
+     "ubigeoNivel02": null,
+     "ubigeoNivel03": null,
+     "idLocalVotacion": null
+    },
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "participacion-hijos",
+   "scope": {
+    "department": "170000",
+    "province": "170300"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/ubigeos-total?idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_02&ubigeoNivel01=170000&ubigeoNivel02=170300",
+   "response": {
+    "data": [
+     {
+      "porcentajeAsistentes": 74.764,
+      "porcentajeAusentes": 25.236,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170300,
+      "ubigeoNivel03": 170303,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 87.43,
+      "porcentajeAusentes": 12.57,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170300,
+      "ubigeoNivel03": 170302,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 77.062,
+      "porcentajeAusentes": 22.439,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170300,
+      "ubigeoNivel03": 170301,
+      "idLocalVotacion": null
+     }
+    ],
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "participacion-mapa-calor",
+   "scope": {
+    "department": "170000",
+    "province": "170300"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/mapa-calor?idAmbitoGeografico=1&idEleccion=3&tipoFiltro=ubigeo_nivel_02&ubigeoNivel01=170000&ubigeoNivel02=170300",
+   "response": {
+    "data": [
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170300,
+      "ubigeoNivel03": 170303,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 74.764,
+      "asistentes": 3804
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170300,
+      "ubigeoNivel03": 170302,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 87.43,
+      "asistentes": 2956
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170300,
+      "ubigeoNivel03": 170301,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 77.062,
+      "asistentes": 46338
+     }
+    ],
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "participacion-totales",
+   "scope": {
+    "department": "170000",
+    "province": "170300",
+    "district": "170302"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/totales?idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel01=170000&ubigeoNivel02=170300&ubigeoNivel03=170302",
+   "response": {
+    "data": {
+     "totalElectoresHabiles": 3381,
+     "totalAsistentes": 2956,
+     "totalAusentes": 425,
+     "porcentajeAsistentes": 87.43,
+     "porcentajeAusentes": 12.57,
+     "ubigeoNivel01": null,
+     "ubigeoNivel02": null,
+     "ubigeoNivel03": null,
+     "idLocalVotacion": null
+    },
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "participacion-totales",
+   "scope": {
+    "department": "170000",
+    "province": "170300",
+    "district": "170301"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/totales?idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel01=170000&ubigeoNivel02=170300&ubigeoNivel03=170301",
+   "response": {
+    "data": {
+     "totalElectoresHabiles": 60131,
+     "totalAsistentes": 46338,
+     "totalAusentes": 13493,
+     "porcentajeAsistentes": 77.062,
+     "porcentajeAusentes": 22.439,
+     "ubigeoNivel01": null,
+     "ubigeoNivel02": null,
+     "ubigeoNivel03": null,
+     "idLocalVotacion": null
+    },
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "participacion-totales",
+   "scope": {
+    "department": "170000",
+    "province": "170300",
+    "district": "170303"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/totales?idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel01=170000&ubigeoNivel02=170300&ubigeoNivel03=170303",
+   "response": {
+    "data": {
+     "totalElectoresHabiles": 5088,
+     "totalAsistentes": 3804,
+     "totalAusentes": 1284,
+     "porcentajeAsistentes": 74.764,
+     "porcentajeAusentes": 25.236,
+     "ubigeoNivel01": null,
+     "ubigeoNivel02": null,
+     "ubigeoNivel03": null,
+     "idLocalVotacion": null
+    },
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  }
+ ],
+ "capturedAtNote": "Hora UTC de escritura del archivo (inmediatamente posterior a la captura en el navegador).",
+ "pageTimestamp": "2026-10-20T07:55:40Z",
+ "pageTimestampNote": "Hora de corte mostrada en la cabecera de la página de ONPE ('ACTUALIZADO AL ...', hora de Lima UTC-5) convertida a UTC."
+}

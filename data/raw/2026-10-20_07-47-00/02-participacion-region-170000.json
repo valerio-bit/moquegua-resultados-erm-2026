@@ -1,0 +1,118 @@
+{
+ "captureMethod": "manual-browser-capture",
+ "capturedAt": "2026-10-20T07:55:54Z",
+ "pageNote": "Página Participación Ciudadana con filtro MOQUEGUA. Cabecera visible: Total de actas 572; 99.825 % contabilizadas (571); 1 enviada al JEE; ACTUALIZADO AL 20/10/2026 A LAS 02:52:00 a. m. (hora de Lima). Ciudadanos pendientes 0.180 %.",
+ "captures": [
+  {
+   "kind": "participacion-totales",
+   "scope": {
+    "department": "170000"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/totales?idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_01&ubigeoNivel01=170000",
+   "response": {
+    "data": {
+     "totalElectoresHabiles": 166170,
+     "totalAsistentes": 131211,
+     "totalAusentes": 34659,
+     "porcentajeAsistentes": 78.962,
+     "porcentajeAusentes": 20.858,
+     "ubigeoNivel01": null,
+     "ubigeoNivel02": null,
+     "ubigeoNivel03": null,
+     "idLocalVotacion": null
+    },
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "participacion-hijos",
+   "scope": {
+    "department": "170000"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/ubigeos-total?idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_01&ubigeoNivel01=170000",
+   "response": {
+    "data": [
+     {
+      "porcentajeAsistentes": 80.603,
+      "porcentajeAusentes": 19.397,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170100,
+      "ubigeoNivel03": null,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 77.402,
+      "porcentajeAusentes": 22.16,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170300,
+      "ubigeoNivel03": null,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 77.216,
+      "porcentajeAusentes": 22.784,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": null,
+      "idLocalVotacion": null
+     }
+    ],
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "participacion-mapa-calor",
+   "scope": {
+    "department": "170000"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/mapa-calor?idAmbitoGeografico=1&idEleccion=3&tipoFiltro=ubigeo_nivel_01&ubigeoNivel01=170000",
+   "response": {
+    "data": [
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170100,
+      "ubigeoNivel03": null,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 80.603,
+      "asistentes": 66004
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170300,
+      "ubigeoNivel03": null,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 77.402,
+      "asistentes": 53098
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": null,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 77.216,
+      "asistentes": 12109
+     }
+    ],
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  }
+ ],
+ "capturedAtNote": "Hora UTC de escritura del archivo (inmediatamente posterior a la captura en el navegador).",
+ "pageTimestamp": "2026-10-20T07:52:00Z",
+ "pageTimestampNote": "Hora de corte mostrada en la cabecera de la página de ONPE ('ACTUALIZADO AL ...', hora de Lima UTC-5) convertida a UTC."
+}

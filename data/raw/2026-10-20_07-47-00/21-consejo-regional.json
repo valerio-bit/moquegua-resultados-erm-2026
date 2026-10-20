@@ -1,0 +1,392 @@
+{
+ "captureMethod": "manual-browser-capture",
+ "capturedAt": "2026-10-20T13:37:08Z",
+ "privacyNote": "dniCandidato reemplazado por \"[omitido]\" (minimización de datos personales).",
+ "pageNote": "Resumen General, bloque Consejo regional, MOQUEGUA > cada provincia (circunscripción). ONPE no publica nombres de candidatos en este servicio (listas).",
+ "captures": [
+  {
+   "kind": "totales",
+   "electionId": 2,
+   "scope": {
+    "department": "170000",
+    "province": "170300"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=2&tipoFiltro=ubigeo_nivel_02&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170300",
+   "response": {
+    "data": {
+     "actasContabilizadas": 100.0,
+     "contabilizadas": 231,
+     "totalActas": 231,
+     "participacionCiudadana": 77.687,
+     "actasEnviadasJee": 0.0,
+     "enviadasJee": 0,
+     "actasPendientesJee": 0.0,
+     "pendientesJee": 0,
+     "fechaActualizacion": "2026-10-20T13:30:27.267Z",
+     "idUbigeoDepartamento": 170000,
+     "idUbigeoProvincia": 170300,
+     "idUbigeoDistrito": null,
+     "idUbigeoDistritoElectoral": null,
+     "totalVotosEmitidos": 53293,
+     "totalVotosValidos": 41189,
+     "porcentajeVotosEmitidos": 100,
+     "porcentajeVotosValidos": 100
+    },
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "participantes",
+   "electionId": 2,
+   "scope": {
+    "department": "170000",
+    "province": "170300"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/participantes?idEleccion=2&tipoFiltro=ubigeo_nivel_02&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170300",
+   "response": {
+    "data": [
+     {
+      "nombreAgrupacionPolitica": "VAMOS MOQUEGUA",
+      "codigoAgrupacionPolitica": 156,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 647,
+      "porcentajeVotosValidos": 1.571,
+      "porcentajeVotosEmitidos": 1.214
+     },
+     {
+      "nombreAgrupacionPolitica": "ALIANZA ELECTORAL VENCEREMOS",
+      "codigoAgrupacionPolitica": 135,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 953,
+      "porcentajeVotosValidos": 2.314,
+      "porcentajeVotosEmitidos": 1.788
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO DEL BUEN GOBIERNO",
+      "codigoAgrupacionPolitica": 121,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 1551,
+      "porcentajeVotosValidos": 3.766,
+      "porcentajeVotosEmitidos": 2.91
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "codigoAgrupacionPolitica": 118,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 2419,
+      "porcentajeVotosValidos": 5.873,
+      "porcentajeVotosEmitidos": 4.539
+     },
+     {
+      "nombreAgrupacionPolitica": "PODEMOS PERÚ",
+      "codigoAgrupacionPolitica": 100,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 3073,
+      "porcentajeVotosValidos": 7.461,
+      "porcentajeVotosEmitidos": 5.766
+     },
+     {
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "codigoAgrupacionPolitica": 96,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 3590,
+      "porcentajeVotosValidos": 8.716,
+      "porcentajeVotosEmitidos": 6.736
+     },
+     {
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "codigoAgrupacionPolitica": 122,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 7487,
+      "porcentajeVotosValidos": 18.177,
+      "porcentajeVotosEmitidos": 14.049
+     },
+     {
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "codigoAgrupacionPolitica": 93,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 10054,
+      "porcentajeVotosValidos": 24.409,
+      "porcentajeVotosEmitidos": 18.866
+     },
+     {
+      "nombreAgrupacionPolitica": "KAUSACHUN",
+      "codigoAgrupacionPolitica": 155,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 11415,
+      "porcentajeVotosValidos": 27.714,
+      "porcentajeVotosEmitidos": 21.419
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "totales",
+   "electionId": 2,
+   "scope": {
+    "department": "170000",
+    "province": "170100"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=2&tipoFiltro=ubigeo_nivel_02&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100",
+   "response": {
+    "data": {
+     "actasContabilizadas": 100.0,
+     "contabilizadas": 281,
+     "totalActas": 281,
+     "participacionCiudadana": 80.603,
+     "actasEnviadasJee": 0.0,
+     "enviadasJee": 0,
+     "actasPendientesJee": 0.0,
+     "pendientesJee": 0,
+     "fechaActualizacion": "2026-10-20T13:30:27.267Z",
+     "idUbigeoDepartamento": 170000,
+     "idUbigeoProvincia": 170100,
+     "idUbigeoDistrito": null,
+     "idUbigeoDistritoElectoral": null,
+     "totalVotosEmitidos": 66004,
+     "totalVotosValidos": 48968,
+     "porcentajeVotosEmitidos": 100,
+     "porcentajeVotosValidos": 100
+    },
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "participantes",
+   "electionId": 2,
+   "scope": {
+    "department": "170000",
+    "province": "170100"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/participantes?idEleccion=2&tipoFiltro=ubigeo_nivel_02&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100",
+   "response": {
+    "data": [
+     {
+      "nombreAgrupacionPolitica": "ALIANZA ELECTORAL VENCEREMOS",
+      "codigoAgrupacionPolitica": 135,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 474,
+      "porcentajeVotosValidos": 0.968,
+      "porcentajeVotosEmitidos": 0.718
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO DEL BUEN GOBIERNO",
+      "codigoAgrupacionPolitica": 121,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 1856,
+      "porcentajeVotosValidos": 3.79,
+      "porcentajeVotosEmitidos": 2.812
+     },
+     {
+      "nombreAgrupacionPolitica": "VAMOS MOQUEGUA",
+      "codigoAgrupacionPolitica": 156,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 2290,
+      "porcentajeVotosValidos": 4.677,
+      "porcentajeVotosEmitidos": 3.469
+     },
+     {
+      "nombreAgrupacionPolitica": "PODEMOS PERÚ",
+      "codigoAgrupacionPolitica": 100,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 3485,
+      "porcentajeVotosValidos": 7.117,
+      "porcentajeVotosEmitidos": 5.28
+     },
+     {
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "codigoAgrupacionPolitica": 96,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 4759,
+      "porcentajeVotosValidos": 9.719,
+      "porcentajeVotosEmitidos": 7.21
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "codigoAgrupacionPolitica": 118,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 4870,
+      "porcentajeVotosValidos": 9.945,
+      "porcentajeVotosEmitidos": 7.378
+     },
+     {
+      "nombreAgrupacionPolitica": "KAUSACHUN",
+      "codigoAgrupacionPolitica": 155,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 5386,
+      "porcentajeVotosValidos": 10.999,
+      "porcentajeVotosEmitidos": 8.16
+     },
+     {
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "codigoAgrupacionPolitica": 122,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 6261,
+      "porcentajeVotosValidos": 12.786,
+      "porcentajeVotosEmitidos": 9.486
+     },
+     {
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "codigoAgrupacionPolitica": 93,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 19587,
+      "porcentajeVotosValidos": 40.0,
+      "porcentajeVotosEmitidos": 29.675
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "totales",
+   "electionId": 2,
+   "scope": {
+    "department": "170000",
+    "province": "170200"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=2&tipoFiltro=ubigeo_nivel_02&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170200",
+   "response": {
+    "data": {
+     "actasContabilizadas": 100.0,
+     "contabilizadas": 60,
+     "totalActas": 60,
+     "participacionCiudadana": 77.216,
+     "actasEnviadasJee": 0.0,
+     "enviadasJee": 0,
+     "actasPendientesJee": 0.0,
+     "pendientesJee": 0,
+     "fechaActualizacion": "2026-10-20T13:30:27.267Z",
+     "idUbigeoDepartamento": 170000,
+     "idUbigeoProvincia": 170200,
+     "idUbigeoDistrito": null,
+     "idUbigeoDistritoElectoral": null,
+     "totalVotosEmitidos": 12109,
+     "totalVotosValidos": 8513,
+     "porcentajeVotosEmitidos": 100,
+     "porcentajeVotosValidos": 100
+    },
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "participantes",
+   "electionId": 2,
+   "scope": {
+    "department": "170000",
+    "province": "170200"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/participantes?idEleccion=2&tipoFiltro=ubigeo_nivel_02&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170200",
+   "response": {
+    "data": [
+     {
+      "nombreAgrupacionPolitica": "ALIANZA ELECTORAL VENCEREMOS",
+      "codigoAgrupacionPolitica": 135,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 40,
+      "porcentajeVotosValidos": 0.47,
+      "porcentajeVotosEmitidos": 0.33
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO DEL BUEN GOBIERNO",
+      "codigoAgrupacionPolitica": 121,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 142,
+      "porcentajeVotosValidos": 1.668,
+      "porcentajeVotosEmitidos": 1.173
+     },
+     {
+      "nombreAgrupacionPolitica": "PODEMOS PERÚ",
+      "codigoAgrupacionPolitica": 100,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 299,
+      "porcentajeVotosValidos": 3.512,
+      "porcentajeVotosEmitidos": 2.469
+     },
+     {
+      "nombreAgrupacionPolitica": "VAMOS MOQUEGUA",
+      "codigoAgrupacionPolitica": 156,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 416,
+      "porcentajeVotosValidos": 4.887,
+      "porcentajeVotosEmitidos": 3.435
+     },
+     {
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "codigoAgrupacionPolitica": 96,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 619,
+      "porcentajeVotosValidos": 7.271,
+      "porcentajeVotosEmitidos": 5.112
+     },
+     {
+      "nombreAgrupacionPolitica": "KAUSACHUN",
+      "codigoAgrupacionPolitica": 155,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 741,
+      "porcentajeVotosValidos": 8.704,
+      "porcentajeVotosEmitidos": 6.119
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "codigoAgrupacionPolitica": 118,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 1364,
+      "porcentajeVotosValidos": 16.023,
+      "porcentajeVotosEmitidos": 11.264
+     },
+     {
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "codigoAgrupacionPolitica": 122,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 1463,
+      "porcentajeVotosValidos": 17.185,
+      "porcentajeVotosEmitidos": 12.082
+     },
+     {
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "codigoAgrupacionPolitica": 93,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 3429,
+      "porcentajeVotosValidos": 40.28,
+      "porcentajeVotosEmitidos": 28.318
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  }
+ ]
+}

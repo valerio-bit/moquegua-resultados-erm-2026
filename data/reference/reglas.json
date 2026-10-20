@@ -1,0 +1,17 @@
+{
+  "regionalSecondRound": {
+    "electionId": 1,
+    "thresholdPct": 30,
+    "rule": "Hay segunda elección regional en las circunscripciones donde ninguna fórmula de gobernador y vicegobernador obtenga no menos del 30 % de los votos válidos; participan las dos fórmulas más votadas.",
+    "electionDate": "2026-12-06",
+    "sourceTitle": "El Peruano: JNE oficializa el 6 de diciembre como fecha de la segunda vuelta regional (Acuerdo del Pleno del JNE del 7 de octubre de 2026)",
+    "sourceUrl": "https://elperuano.pe/noticia/306580-jne-oficializa-el-6-de-diciembre-como-fecha-de-la-segunda-vuelta-regional",
+    "checkedOn": "2026-10-20"
+  },
+  "municipal": {
+    "rule": "Las alcaldías provinciales y distritales se definen en una sola vuelta por mayoría simple. Este sitio llama 'primer lugar virtual' a quien encabeza el cómputo ONPE al 100 % de actas; no es una proclamación."
+  },
+  "regionalCouncil": {
+    "rule": "El Consejo Regional se elige por listas en cada provincia. La asignación de escaños la determina el Jurado Electoral; este sitio no calcula escaños."
+  }
+}

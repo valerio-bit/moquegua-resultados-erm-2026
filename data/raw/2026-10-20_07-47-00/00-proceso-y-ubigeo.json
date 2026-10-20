@@ -1,0 +1,124 @@
+{
+ "captureMethod": "manual-browser-capture",
+ "captureNote": "Respuestas JSON cargadas por la propia interfaz pública de ONPE al navegarla en un navegador (Modo B: importación manual). No se evadió el AWS WAF: las consultas por script/CLI reciben 403/challenge.",
+ "capturedAt": "2026-10-20T07:55:11Z",
+ "captures": [
+  {
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/proceso/proceso-electoral-activo",
+   "response": {
+    "data": {
+     "id": 4,
+     "nombre": "ELECCIONES REGIONALES Y MUNICIPALES 2026",
+     "acronimo": "ERM2026",
+     "fechaProceso": "2026-10-04T05:00:00Z",
+     "idEleccionPrincipal": 3,
+     "tipoProcesoElectoral": "elecciones-regionales-municipales",
+     "activoFechaProceso": true
+    },
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/proceso/4/elecciones",
+   "response": {
+    "data": [
+     {
+      "id": 1,
+      "nombre": "Resumen General",
+      "padre": 0,
+      "hijos": false,
+      "icono": "icon-ico_resumen_general",
+      "orden": 1,
+      "idEleccion": 0,
+      "url": "/main/resumen",
+      "esPrincipal": false,
+      "descripcion": ""
+     },
+     {
+      "id": 10,
+      "nombre": "Elecciones Regionales",
+      "padre": 0,
+      "hijos": false,
+      "icono": "icon-ico-e-regionales",
+      "orden": 10,
+      "idEleccion": 1,
+      "url": "/main/elecciones-regionales",
+      "esPrincipal": false,
+      "descripcion": "Elecciones Regionales"
+     },
+     {
+      "id": 14,
+      "nombre": "Elecciones Municipales",
+      "padre": 0,
+      "hijos": false,
+      "icono": "icon-ico-e-municipales",
+      "orden": 11,
+      "idEleccion": 3,
+      "url": "/main/elecciones-municipales",
+      "esPrincipal": true,
+      "descripcion": "Elecciones Municipales"
+     },
+     {
+      "id": 51,
+      "nombre": "Participación Ciudadana",
+      "padre": 0,
+      "hijos": false,
+      "icono": "icon-ico-participacion2",
+      "orden": 51,
+      "idEleccion": 0,
+      "url": "/main/participacion-ciudadana",
+      "esPrincipal": false,
+      "descripcion": "Participación ciudadana"
+     },
+     {
+      "id": 52,
+      "nombre": "Actas",
+      "padre": 0,
+      "hijos": false,
+      "icono": "icon-ico_menu_actas",
+      "orden": 52,
+      "idEleccion": 0,
+      "url": "/main/actas",
+      "esPrincipal": false,
+      "descripcion": "Actas"
+     }
+    ],
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/assets/ubig/v1.json",
+   "note": "Extracto filtrado a los registros cuyo c_ubigeo comienza con el prefijo del registro c_nombre=MOQUEGUA (170000). Campos: c_ubigeo|n_ubigeo_padre|c_provincia(padre)|c_nombre.",
+   "response": [
+    "170000|0|NACION|MOQUEGUA",
+    "170100|170000|MOQUEGUA|MARISCAL NIETO",
+    "170101|170100|MARISCAL NIETO|MOQUEGUA",
+    "170102|170100|MARISCAL NIETO|CARUMAS",
+    "170103|170100|MARISCAL NIETO|CUCHUMBAYA",
+    "170104|170100|MARISCAL NIETO|SAN CRISTÓBAL",
+    "170105|170100|MARISCAL NIETO|TORATA",
+    "170106|170100|MARISCAL NIETO|SAMEGUA",
+    "170107|170100|MARISCAL NIETO|SAN ANTONIO",
+    "170200|170000|MOQUEGUA|GENERAL SÁNCHEZ CERRO",
+    "170201|170200|GENERAL SÁNCHEZ CERRO|OMATE",
+    "170202|170200|GENERAL SÁNCHEZ CERRO|COALAQUE",
+    "170203|170200|GENERAL SÁNCHEZ CERRO|CHOJATA",
+    "170204|170200|GENERAL SÁNCHEZ CERRO|ICHUÑA",
+    "170205|170200|GENERAL SÁNCHEZ CERRO|LA CAPILLA",
+    "170206|170200|GENERAL SÁNCHEZ CERRO|LLOQUE",
+    "170207|170200|GENERAL SÁNCHEZ CERRO|MATALAQUE",
+    "170208|170200|GENERAL SÁNCHEZ CERRO|PUQUINA",
+    "170209|170200|GENERAL SÁNCHEZ CERRO|QUINISTAQUILLAS",
+    "170210|170200|GENERAL SÁNCHEZ CERRO|UBINAS",
+    "170211|170200|GENERAL SÁNCHEZ CERRO|YUNGA",
+    "170300|170000|MOQUEGUA|ILO",
+    "170301|170300|ILO|ILO",
+    "170302|170300|ILO|EL ALGARROBAL",
+    "170303|170300|ILO|PACOCHA"
+   ]
+  }
+ ],
+ "capturedAtNote": "Hora UTC de escritura del archivo (inmediatamente posterior a la captura en el navegador)."
+}

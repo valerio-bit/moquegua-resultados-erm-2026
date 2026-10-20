@@ -1,0 +1,339 @@
+{
+ "captureMethod": "manual-browser-capture",
+ "capturedAt": "2026-10-20T07:55:44Z",
+ "privacyNote": "dniCandidato reemplazado por \"[omitido]\" (minimización de datos personales; no se usa en la aplicación).",
+ "captures": [
+  {
+   "kind": "totales",
+   "electionId": 1,
+   "scope": {
+    "department": "170000"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=1&tipoFiltro=ubigeo_nivel_01&idAmbitoGeografico=1&idUbigeoDepartamento=170000",
+   "response": {
+    "data": {
+     "actasContabilizadas": 100.0,
+     "contabilizadas": 572,
+     "totalActas": 572,
+     "participacionCiudadana": 79.079,
+     "actasEnviadasJee": 0.0,
+     "enviadasJee": 0,
+     "actasPendientesJee": 0.0,
+     "pendientesJee": 0,
+     "fechaActualizacion": "2026-10-20T07:46:00.204Z",
+     "idUbigeoDepartamento": 170000,
+     "idUbigeoProvincia": null,
+     "idUbigeoDistrito": null,
+     "idUbigeoDistritoElectoral": null,
+     "totalVotosEmitidos": 131406,
+     "totalVotosValidos": 115500,
+     "porcentajeVotosEmitidos": 100,
+     "porcentajeVotosValidos": 100
+    },
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "participantes",
+   "electionId": 1,
+   "scope": {
+    "department": "170000"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/participantes?idEleccion=1&tipoFiltro=ubigeo_nivel_01&idAmbitoGeografico=1&idUbigeoDepartamento=170000",
+   "response": {
+    "data": [
+     {
+      "nombreAgrupacionPolitica": "ALIANZA ELECTORAL VENCEREMOS",
+      "codigoAgrupacionPolitica": 135,
+      "nombreCandidato": "JORGE LUIS LAMA CORDOVA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 914,
+      "porcentajeVotosValidos": 0.791,
+      "porcentajeVotosEmitidos": 0.696
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO DEL BUEN GOBIERNO",
+      "codigoAgrupacionPolitica": 121,
+      "nombreCandidato": "HUGO ISAIAS QUISPE MAMANI",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 1894,
+      "porcentajeVotosValidos": 1.64,
+      "porcentajeVotosEmitidos": 1.441
+     },
+     {
+      "nombreAgrupacionPolitica": "VAMOS MOQUEGUA",
+      "codigoAgrupacionPolitica": 156,
+      "nombreCandidato": "RODOLFO ORESTE BALDI BURGA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 1925,
+      "porcentajeVotosValidos": 1.667,
+      "porcentajeVotosEmitidos": 1.465
+     },
+     {
+      "nombreAgrupacionPolitica": "PODEMOS PERÚ",
+      "codigoAgrupacionPolitica": 100,
+      "nombreCandidato": "LUIS DANTE ZUBIA CORTEZ",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 5027,
+      "porcentajeVotosValidos": 4.352,
+      "porcentajeVotosEmitidos": 3.826
+     },
+     {
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "codigoAgrupacionPolitica": 96,
+      "nombreCandidato": "VICTOR CATUNTA CUAYLA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 5544,
+      "porcentajeVotosValidos": 4.8,
+      "porcentajeVotosEmitidos": 4.219
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "codigoAgrupacionPolitica": 110,
+      "nombreCandidato": "MILAR GODOFREDO ZENTENO MEJIA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 5658,
+      "porcentajeVotosValidos": 4.899,
+      "porcentajeVotosEmitidos": 4.306
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "codigoAgrupacionPolitica": 118,
+      "nombreCandidato": "PEDRO JUAN TITO CALIZAYA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 6360,
+      "porcentajeVotosValidos": 5.506,
+      "porcentajeVotosEmitidos": 4.84
+     },
+     {
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "codigoAgrupacionPolitica": 122,
+      "nombreCandidato": "PERCY HUANCAPAZA CHAMBI",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 8799,
+      "porcentajeVotosValidos": 7.618,
+      "porcentajeVotosEmitidos": 6.696
+     },
+     {
+      "nombreAgrupacionPolitica": "KAUSACHUN",
+      "codigoAgrupacionPolitica": 155,
+      "nombreCandidato": "JAIME ALBERTO RODRIGUEZ VILLANUEVA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 20274,
+      "porcentajeVotosValidos": 17.553,
+      "porcentajeVotosEmitidos": 15.429
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+      "codigoAgrupacionPolitica": 94,
+      "nombreCandidato": "JUAN LUIS HERRERA CHEJO",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 29054,
+      "porcentajeVotosValidos": 25.155,
+      "porcentajeVotosEmitidos": 22.11
+     },
+     {
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "codigoAgrupacionPolitica": 93,
+      "nombreCandidato": "ABRAHAM ALEJANDRO CARDENAS ROMERO",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 30051,
+      "porcentajeVotosValidos": 26.018,
+      "porcentajeVotosEmitidos": 22.869
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "ubicacion-geografica",
+   "electionId": 1,
+   "scope": {
+    "department": "170000"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/eleccion-gobernador-vicegobernador/participantes-ubicacion-geografica-nombre?idEleccion=1&idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_01&ubigeoNivel1=170000",
+   "response": {
+    "data": [
+     {
+      "codigoAgrupacionPolitica": "93",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 22.869,
+      "porcentajeVotosValidos": 26.018,
+      "totalVotosValidos": 30051
+     },
+     {
+      "codigoAgrupacionPolitica": "94",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 22.11,
+      "porcentajeVotosValidos": 25.155,
+      "totalVotosValidos": 29054
+     },
+     {
+      "codigoAgrupacionPolitica": "155",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "KAUSACHUN",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 15.429,
+      "porcentajeVotosValidos": 17.553,
+      "totalVotosValidos": 20274
+     },
+     {
+      "codigoAgrupacionPolitica": "80",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS EN BLANCO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 6.921,
+      "totalVotosValidos": 9094
+     },
+     {
+      "codigoAgrupacionPolitica": "122",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 6.696,
+      "porcentajeVotosValidos": 7.618,
+      "totalVotosValidos": 8799
+     },
+     {
+      "codigoAgrupacionPolitica": "81",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VOTOS NULOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 5.184,
+      "totalVotosValidos": 6812
+     },
+     {
+      "codigoAgrupacionPolitica": "118",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 4.84,
+      "porcentajeVotosValidos": 5.506,
+      "totalVotosValidos": 6360
+     },
+     {
+      "codigoAgrupacionPolitica": "110",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 4.306,
+      "porcentajeVotosValidos": 4.899,
+      "totalVotosValidos": 5658
+     },
+     {
+      "codigoAgrupacionPolitica": "96",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 4.219,
+      "porcentajeVotosValidos": 4.8,
+      "totalVotosValidos": 5544
+     },
+     {
+      "codigoAgrupacionPolitica": "100",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PODEMOS PERÚ",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 3.826,
+      "porcentajeVotosValidos": 4.352,
+      "totalVotosValidos": 5027
+     },
+     {
+      "codigoAgrupacionPolitica": "156",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "VAMOS MOQUEGUA",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 1.465,
+      "porcentajeVotosValidos": 1.667,
+      "totalVotosValidos": 1925
+     },
+     {
+      "codigoAgrupacionPolitica": "121",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "PARTIDO DEL BUEN GOBIERNO",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 1.441,
+      "porcentajeVotosValidos": 1.64,
+      "totalVotosValidos": 1894
+     },
+     {
+      "codigoAgrupacionPolitica": "135",
+      "dniCandidato": "",
+      "nombreAgrupacionPolitica": "ALIANZA ELECTORAL VENCEREMOS",
+      "nombreCandidato": "",
+      "porcentajeVotosEmitidos": 0.696,
+      "porcentajeVotosValidos": 0.791,
+      "totalVotosValidos": 914
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "mapa-calor-actas",
+   "electionId": 1,
+   "scope": {
+    "department": "170000"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/mapa-calor?idAmbitoGeografico=1&idEleccion=1&tipoFiltro=ubigeo_nivel_01&ubigeoNivel01=170000",
+   "response": {
+    "data": [
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170200,
+      "ubigeoNivel03": null,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": 100.0,
+      "actasContabilizadas": 60
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170100,
+      "ubigeoNivel03": null,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": 100.0,
+      "actasContabilizadas": 281
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170300,
+      "ubigeoNivel03": null,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": 100.0,
+      "actasContabilizadas": 231
+     }
+    ],
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "mesas",
+   "electionId": 1,
+   "scope": {
+    "department": "170000"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/mesa/totales?tipoFiltro=ubigeo_nivel_01&ubigeoNivel1=170000&ambitoGeografico=1",
+   "response": {
+    "data": {
+     "mesasInstaladas": 572,
+     "mesasNoInstaladas": 0,
+     "mesasPendientes": 0
+    },
+    "message": "",
+    "success": true
+   }
+  }
+ ],
+ "capturedAtNote": "Hora UTC de escritura del archivo (inmediatamente posterior a la captura en el navegador)."
+}

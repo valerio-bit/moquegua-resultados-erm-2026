@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+/*
+ * Identidad: periodismo de datos sobria, paleta mineral fría.
+ * Tinta pizarra sobre papel gris verdoso; acento verde Pacífico (Ilo);
+ * cuatro colores de estado que nunca se usan como decoración.
+ */
+@theme {
+  --color-ink: #1b2330;
+  --color-ink-soft: #4a5566;
+  --color-ink-faint: #6b7584;
+  --color-paper: #f2f4f3;
+  --color-surface: #ffffff;
+  --color-rule: #d3dad7;
+  --color-rule-strong: #aeb8b4;
+  --color-accent: #0e6168;
+  --color-accent-strong: #094247;
+  --color-accent-soft: #dcebea;
+  --color-bar: #c2ccc9;
+  --color-bar-lead: #0e6168;
+
+  --color-st-computo: #4f5a69;
+  --color-st-computo-bg: #e7eaee;
+  --color-st-virtual: #7a4f00;
+  --color-st-virtual-bg: #fbeed3;
+  --color-st-segunda: #3f2f8f;
+  --color-st-segunda-bg: #e7e3f7;
+  --color-st-proclamado: #19613a;
+  --color-st-proclamado-bg: #dcf0e2;
+  --color-st-parcial: #8a3b12;
+  --color-st-parcial-bg: #f9e3d6;
+
+  --font-serif: var(--font-newsreader), "Iowan Old Style", Georgia, serif;
+  --font-sans: var(--font-public-sans), "Segoe UI", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 1rem;
+  }
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.55;
+    font-feature-settings: "kern";
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  a {
+    color: var(--color-accent);
+    text-underline-offset: 0.18em;
+  }
+  a:hover {
+    color: var(--color-accent-strong);
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  table {
+    font-variant-numeric: tabular-nums;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+  .prose-note {
+    max-width: 72ch;
+  }
+  .table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9375rem;
+  }
+  .data-table caption {
+    caption-side: top;
+    text-align: left;
+    padding: 0 0 0.6rem;
+    font-size: 0.875rem;
+    color: var(--color-ink-soft);
+  }
+  .data-table th,
+  .data-table td {
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid var(--color-rule);
+    vertical-align: middle;
+  }
+  .data-table thead th {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--color-ink-soft);
+    text-align: left;
+    border-bottom: 2px solid var(--color-rule-strong);
+    white-space: nowrap;
+  }
+  .data-table tbody th {
+    text-align: left;
+  }
+  .data-table td.right,
+  .data-table th.right {
+    text-align: right;
+  }
+  .data-table tbody tr:hover {
+    background: color-mix(in srgb, var(--color-accent-soft) 45%, transparent);
+  }
+}

@@ -1,0 +1,608 @@
+{
+ "captureMethod": "manual-browser-capture",
+ "capturedAt": "2026-10-20T13:35:44Z",
+ "privacyNote": "dniCandidato reemplazado por \"[omitido]\" (minimización de datos personales).",
+ "pageNote": "Resumen General, bloque Municipal distrital, MOQUEGUA > MARISCAL NIETO. ONPE ofrece CARUMAS, CUCHUMBAYA, SAMEGUA, SAN ANTONIO, SAN CRISTÓBAL y TORATA (MOQUEGUA, capital provincial, no figura). Samegua: 1 acta enviada al JEE.",
+ "captures": [
+  {
+   "kind": "totales",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170102"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100&idUbigeoDistrito=170102",
+   "response": {
+    "data": {
+     "actasContabilizadas": 100.0,
+     "contabilizadas": 10,
+     "totalActas": 10,
+     "participacionCiudadana": 78.159,
+     "actasEnviadasJee": 0.0,
+     "enviadasJee": 0,
+     "actasPendientesJee": 0.0,
+     "pendientesJee": 0,
+     "fechaActualizacion": "2026-10-20T13:30:27.267Z",
+     "idUbigeoDepartamento": 170000,
+     "idUbigeoProvincia": 170100,
+     "idUbigeoDistrito": 170102,
+     "idUbigeoDistritoElectoral": null,
+     "totalVotosEmitidos": 1961,
+     "totalVotosValidos": 1636,
+     "porcentajeVotosEmitidos": 100,
+     "porcentajeVotosValidos": 100
+    },
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "participantes",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170102"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/participantes?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100&idUbigeoDistrito=170102",
+   "response": {
+    "data": [
+     {
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "codigoAgrupacionPolitica": 122,
+      "nombreCandidato": "ANGELA BENITA RODRIGUEZ ARANA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 43,
+      "porcentajeVotosValidos": 2.628,
+      "porcentajeVotosEmitidos": 2.193
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO PATRIÓTICO DEL PERÚ",
+      "codigoAgrupacionPolitica": 104,
+      "nombreCandidato": "ROSEL ELOY JORGE HUMIRE",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 233,
+      "porcentajeVotosValidos": 14.242,
+      "porcentajeVotosEmitidos": 11.882
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO SICREO",
+      "codigoAgrupacionPolitica": 116,
+      "nombreCandidato": "JORGE JUAN CORDOVA PARI",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 437,
+      "porcentajeVotosValidos": 26.711,
+      "porcentajeVotosEmitidos": 22.285
+     },
+     {
+      "nombreAgrupacionPolitica": "ALIANZA PARA EL PROGRESO",
+      "codigoAgrupacionPolitica": 95,
+      "nombreCandidato": "JULIO ARMANDO VALDEZ NAVENTA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 923,
+      "porcentajeVotosValidos": 56.418,
+      "porcentajeVotosEmitidos": 47.068
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "totales",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170103"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100&idUbigeoDistrito=170103",
+   "response": {
+    "data": {
+     "actasContabilizadas": 100.0,
+     "contabilizadas": 4,
+     "totalActas": 4,
+     "participacionCiudadana": 84.01,
+     "actasEnviadasJee": 0.0,
+     "enviadasJee": 0,
+     "actasPendientesJee": 0.0,
+     "pendientesJee": 0,
+     "fechaActualizacion": "2026-10-20T13:25:42.891Z",
+     "idUbigeoDepartamento": 170000,
+     "idUbigeoProvincia": 170100,
+     "idUbigeoDistrito": 170103,
+     "idUbigeoDistritoElectoral": null,
+     "totalVotosEmitidos": 993,
+     "totalVotosValidos": 876,
+     "porcentajeVotosEmitidos": 100,
+     "porcentajeVotosValidos": 100
+    },
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "participantes",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170103"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/participantes?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100&idUbigeoDistrito=170103",
+   "response": {
+    "data": [
+     {
+      "nombreAgrupacionPolitica": "PARTIDO SICREO",
+      "codigoAgrupacionPolitica": 116,
+      "nombreCandidato": "WILSON JOSE VENTURA ZAPATA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 98,
+      "porcentajeVotosValidos": 11.187,
+      "porcentajeVotosEmitidos": 9.869
+     },
+     {
+      "nombreAgrupacionPolitica": "ALIANZA PARA EL PROGRESO",
+      "codigoAgrupacionPolitica": 95,
+      "nombreCandidato": "JAVIER ELIAS TALA CENTENO",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 330,
+      "porcentajeVotosValidos": 37.671,
+      "porcentajeVotosEmitidos": 33.233
+     },
+     {
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "codigoAgrupacionPolitica": 93,
+      "nombreCandidato": "HENRY YONEL VIZCARRA QUISPE",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 448,
+      "porcentajeVotosValidos": 51.142,
+      "porcentajeVotosEmitidos": 45.116
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "totales",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170106"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100&idUbigeoDistrito=170106",
+   "response": {
+    "data": {
+     "actasContabilizadas": 96.154,
+     "contabilizadas": 25,
+     "totalActas": 26,
+     "participacionCiudadana": 77.711,
+     "actasEnviadasJee": 3.846,
+     "enviadasJee": 1,
+     "actasPendientesJee": 0.0,
+     "pendientesJee": 0,
+     "fechaActualizacion": "2026-10-20T13:25:42.891Z",
+     "idUbigeoDepartamento": 170000,
+     "idUbigeoProvincia": 170100,
+     "idUbigeoDistrito": 170106,
+     "idUbigeoDistritoElectoral": null,
+     "totalVotosEmitidos": 5969,
+     "totalVotosValidos": 5434,
+     "porcentajeVotosEmitidos": 100,
+     "porcentajeVotosValidos": 100
+    },
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "participantes",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170106"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/participantes?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100&idUbigeoDistrito=170106",
+   "response": {
+    "data": [
+     {
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "codigoAgrupacionPolitica": 96,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 84,
+      "porcentajeVotosValidos": 1.546,
+      "porcentajeVotosEmitidos": 1.407
+     },
+     {
+      "nombreAgrupacionPolitica": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+      "codigoAgrupacionPolitica": 113,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 129,
+      "porcentajeVotosValidos": 2.374,
+      "porcentajeVotosEmitidos": 2.161
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "codigoAgrupacionPolitica": 110,
+      "nombreCandidato": "ANA CECILIA MARTINEZ FLORES",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 198,
+      "porcentajeVotosValidos": 3.644,
+      "porcentajeVotosEmitidos": 3.317
+     },
+     {
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "codigoAgrupacionPolitica": 122,
+      "nombreCandidato": "NYLTHON PORFIDIO CUAYLA CONDORI",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 246,
+      "porcentajeVotosValidos": 4.527,
+      "porcentajeVotosEmitidos": 4.121
+     },
+     {
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "codigoAgrupacionPolitica": 93,
+      "nombreCandidato": "ALONSO ARAGON CALCIN",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 258,
+      "porcentajeVotosValidos": 4.748,
+      "porcentajeVotosEmitidos": 4.322
+     },
+     {
+      "nombreAgrupacionPolitica": "PODEMOS PERÚ",
+      "codigoAgrupacionPolitica": 100,
+      "nombreCandidato": "CARLOS GUIDO LUQUE VIZCARDO",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 2126,
+      "porcentajeVotosValidos": 39.124,
+      "porcentajeVotosEmitidos": 35.617
+     },
+     {
+      "nombreAgrupacionPolitica": "ALIANZA PARA EL PROGRESO",
+      "codigoAgrupacionPolitica": 95,
+      "nombreCandidato": "RENSO MILTHON FLORENCIO QUIROZ VARGAS",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 2393,
+      "porcentajeVotosValidos": 44.038,
+      "porcentajeVotosEmitidos": 40.09
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "totales",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170107"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100&idUbigeoDistrito=170107",
+   "response": {
+    "data": {
+     "actasContabilizadas": 100.0,
+     "contabilizadas": 69,
+     "totalActas": 69,
+     "participacionCiudadana": 86.973,
+     "actasEnviadasJee": 0.0,
+     "enviadasJee": 0,
+     "actasPendientesJee": 0.0,
+     "pendientesJee": 0,
+     "fechaActualizacion": "2026-10-20T13:30:27.267Z",
+     "idUbigeoDepartamento": 170000,
+     "idUbigeoProvincia": 170100,
+     "idUbigeoDistrito": 170107,
+     "idUbigeoDistritoElectoral": null,
+     "totalVotosEmitidos": 17819,
+     "totalVotosValidos": 16544,
+     "porcentajeVotosEmitidos": 100,
+     "porcentajeVotosValidos": 100
+    },
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "participantes",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170107"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/participantes?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100&idUbigeoDistrito=170107",
+   "response": {
+    "data": [
+     {
+      "nombreAgrupacionPolitica": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+      "codigoAgrupacionPolitica": 113,
+      "nombreCandidato": "VICTOR CATACORA PAYE",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 133,
+      "porcentajeVotosValidos": 0.804,
+      "porcentajeVotosEmitidos": 0.746
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+      "codigoAgrupacionPolitica": 102,
+      "nombreCandidato": "EUGENIO MARCELINO TORRES HURTADO",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 142,
+      "porcentajeVotosValidos": 0.858,
+      "porcentajeVotosEmitidos": 0.797
+     },
+     {
+      "nombreAgrupacionPolitica": "PERÚ MODERNO",
+      "codigoAgrupacionPolitica": 109,
+      "nombreCandidato": "SALOMON GONZAGA APAZA YUCRA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 190,
+      "porcentajeVotosValidos": 1.148,
+      "porcentajeVotosEmitidos": 1.066
+     },
+     {
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "codigoAgrupacionPolitica": 96,
+      "nombreCandidato": "GREGORIO PERCY MAMANI CRUZ",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 438,
+      "porcentajeVotosValidos": 2.647,
+      "porcentajeVotosEmitidos": 2.458
+     },
+     {
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "codigoAgrupacionPolitica": 122,
+      "nombreCandidato": "HENRRY ARTURO VALDIVIA SOLORZANO",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 573,
+      "porcentajeVotosValidos": 3.463,
+      "porcentajeVotosEmitidos": 3.216
+     },
+     {
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "codigoAgrupacionPolitica": 93,
+      "nombreCandidato": "GEYMER LOPEZ GALLARDO",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 1166,
+      "porcentajeVotosValidos": 7.048,
+      "porcentajeVotosEmitidos": 6.544
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "codigoAgrupacionPolitica": 118,
+      "nombreCandidato": "DARIO PEDRO HUACAN PUMA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 3065,
+      "porcentajeVotosValidos": 18.526,
+      "porcentajeVotosEmitidos": 17.201
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "codigoAgrupacionPolitica": 110,
+      "nombreCandidato": "FREDY BORDA QUISPE",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 3602,
+      "porcentajeVotosValidos": 21.772,
+      "porcentajeVotosEmitidos": 20.214
+     },
+     {
+      "nombreAgrupacionPolitica": "AHORA NACIÓN - AN",
+      "codigoAgrupacionPolitica": 123,
+      "nombreCandidato": "JOSE RICARDO ORDOÑEZ HUANCA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 7235,
+      "porcentajeVotosValidos": 43.732,
+      "porcentajeVotosEmitidos": 40.603
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "totales",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170104"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100&idUbigeoDistrito=170104",
+   "response": {
+    "data": {
+     "actasContabilizadas": 100.0,
+     "contabilizadas": 9,
+     "totalActas": 9,
+     "participacionCiudadana": 78.809,
+     "actasEnviadasJee": 0.0,
+     "enviadasJee": 0,
+     "actasPendientesJee": 0.0,
+     "pendientesJee": 0,
+     "fechaActualizacion": "2026-10-20T13:30:27.267Z",
+     "idUbigeoDepartamento": 170000,
+     "idUbigeoProvincia": 170100,
+     "idUbigeoDistrito": 170104,
+     "idUbigeoDistritoElectoral": null,
+     "totalVotosEmitidos": 1826,
+     "totalVotosValidos": 1693,
+     "porcentajeVotosEmitidos": 100,
+     "porcentajeVotosValidos": 100
+    },
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "participantes",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170104"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/participantes?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100&idUbigeoDistrito=170104",
+   "response": {
+    "data": [
+     {
+      "nombreAgrupacionPolitica": "PARTIDO SICREO",
+      "codigoAgrupacionPolitica": 116,
+      "nombreCandidato": "NEMECIO CAUSA BENITO",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 349,
+      "porcentajeVotosValidos": 20.614,
+      "porcentajeVotosEmitidos": 19.113
+     },
+     {
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "codigoAgrupacionPolitica": 93,
+      "nombreCandidato": "ELMER REYMUNDO BANEGAS FLORES",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 638,
+      "porcentajeVotosValidos": 37.685,
+      "porcentajeVotosEmitidos": 34.94
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "codigoAgrupacionPolitica": 110,
+      "nombreCandidato": "EDY NOE MAMANI VILCA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 706,
+      "porcentajeVotosValidos": 41.701,
+      "porcentajeVotosEmitidos": 38.664
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "totales",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170105"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100&idUbigeoDistrito=170105",
+   "response": {
+    "data": {
+     "actasContabilizadas": 100.0,
+     "contabilizadas": 29,
+     "totalActas": 29,
+     "participacionCiudadana": 84.077,
+     "actasEnviadasJee": 0.0,
+     "enviadasJee": 0,
+     "actasPendientesJee": 0.0,
+     "pendientesJee": 0,
+     "fechaActualizacion": "2026-10-20T13:30:27.267Z",
+     "idUbigeoDepartamento": 170000,
+     "idUbigeoProvincia": 170100,
+     "idUbigeoDistrito": 170105,
+     "idUbigeoDistritoElectoral": null,
+     "totalVotosEmitidos": 7070,
+     "totalVotosValidos": 6622,
+     "porcentajeVotosEmitidos": 100,
+     "porcentajeVotosValidos": 100
+    },
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "participantes",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170105"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/participantes?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100&idUbigeoDistrito=170105",
+   "response": {
+    "data": [
+     {
+      "nombreAgrupacionPolitica": "PERÚ MODERNO",
+      "codigoAgrupacionPolitica": 109,
+      "nombreCandidato": "YVAN BLADIMIR MAMANI TICONA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 64,
+      "porcentajeVotosValidos": 0.966,
+      "porcentajeVotosEmitidos": 0.905
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "codigoAgrupacionPolitica": 110,
+      "nombreCandidato": "JUBENCIO FORTUNATO PALOMINO FLORES",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 65,
+      "porcentajeVotosValidos": 0.982,
+      "porcentajeVotosEmitidos": 0.919
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "codigoAgrupacionPolitica": 118,
+      "nombreCandidato": "MILNER ALDO HURTADO SOTO",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 134,
+      "porcentajeVotosValidos": 2.024,
+      "porcentajeVotosEmitidos": 1.895
+     },
+     {
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "codigoAgrupacionPolitica": 122,
+      "nombreCandidato": "JHONY APAZA CALLATA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 189,
+      "porcentajeVotosValidos": 2.854,
+      "porcentajeVotosEmitidos": 2.673
+     },
+     {
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "codigoAgrupacionPolitica": 93,
+      "nombreCandidato": "ROCIO ELIXANDRA COLQUE SALINAS",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 205,
+      "porcentajeVotosValidos": 3.096,
+      "porcentajeVotosEmitidos": 2.9
+     },
+     {
+      "nombreAgrupacionPolitica": "PODEMOS PERÚ",
+      "codigoAgrupacionPolitica": 100,
+      "nombreCandidato": "MULLER LEONARDO PARE MAMANI",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 408,
+      "porcentajeVotosValidos": 6.161,
+      "porcentajeVotosEmitidos": 5.771
+     },
+     {
+      "nombreAgrupacionPolitica": "ALIANZA PARA EL PROGRESO",
+      "codigoAgrupacionPolitica": 95,
+      "nombreCandidato": "WILFREDO ALBERTO CATACORA CHAMBILLA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 2623,
+      "porcentajeVotosValidos": 39.61,
+      "porcentajeVotosEmitidos": 37.1
+     },
+     {
+      "nombreAgrupacionPolitica": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+      "codigoAgrupacionPolitica": 113,
+      "nombreCandidato": "ARLA NOHELIA FLOR CRUZ",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 2934,
+      "porcentajeVotosValidos": 44.307,
+      "porcentajeVotosEmitidos": 41.499
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  }
+ ]
+}

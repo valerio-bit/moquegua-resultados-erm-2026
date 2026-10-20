@@ -1,0 +1,369 @@
+{
+ "captureMethod": "manual-browser-capture",
+ "capturedAt": "2026-10-20T08:00:15Z",
+ "pageNote": "Participación Ciudadana, filtro MOQUEGUA > MARISCAL NIETO y cada distrito. Cabecera: ACTUALIZADO AL 20/10/2026 A LAS 02:55:40 a. m.; 100 % actas contabilizadas.",
+ "captures": [
+  {
+   "kind": "participacion-totales",
+   "scope": {
+    "department": "170000",
+    "province": "170100"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/totales?idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_02&ubigeoNivel01=170000&ubigeoNivel02=170100",
+   "response": {
+    "data": {
+     "totalElectoresHabiles": 81888,
+     "totalAsistentes": 66004,
+     "totalAusentes": 15884,
+     "porcentajeAsistentes": 80.603,
+     "porcentajeAusentes": 19.397,
+     "ubigeoNivel01": null,
+     "ubigeoNivel02": null,
+     "ubigeoNivel03": null,
+     "idLocalVotacion": null
+    },
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "participacion-hijos",
+   "scope": {
+    "department": "170000",
+    "province": "170100"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/ubigeos-total?idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_02&ubigeoNivel01=170000&ubigeoNivel02=170100",
+   "response": {
+    "data": [
+     {
+      "porcentajeAsistentes": 78.809,
+      "porcentajeAusentes": 21.191,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170100,
+      "ubigeoNivel03": 170104,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 80.94,
+      "porcentajeAusentes": 19.06,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170100,
+      "ubigeoNivel03": 170106,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 84.077,
+      "porcentajeAusentes": 15.923,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170100,
+      "ubigeoNivel03": 170105,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 78.159,
+      "porcentajeAusentes": 21.841,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170100,
+      "ubigeoNivel03": 170102,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 84.01,
+      "porcentajeAusentes": 15.99,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170100,
+      "ubigeoNivel03": 170103,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 86.973,
+      "porcentajeAusentes": 13.027,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170100,
+      "ubigeoNivel03": 170107,
+      "idLocalVotacion": null
+     },
+     {
+      "porcentajeAsistentes": 76.632,
+      "porcentajeAusentes": 23.368,
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170100,
+      "ubigeoNivel03": 170101,
+      "idLocalVotacion": null
+     }
+    ],
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "participacion-mapa-calor",
+   "scope": {
+    "department": "170000",
+    "province": "170100"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/mapa-calor?idAmbitoGeografico=1&idEleccion=3&tipoFiltro=ubigeo_nivel_02&ubigeoNivel01=170000&ubigeoNivel02=170100",
+   "response": {
+    "data": [
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170100,
+      "ubigeoNivel03": 170104,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 78.809,
+      "asistentes": 1826
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170100,
+      "ubigeoNivel03": 170106,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 80.94,
+      "asistentes": 6217
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170100,
+      "ubigeoNivel03": 170105,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 84.077,
+      "asistentes": 7070
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170100,
+      "ubigeoNivel03": 170102,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 78.159,
+      "asistentes": 1961
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170100,
+      "ubigeoNivel03": 170103,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 84.01,
+      "asistentes": 993
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170100,
+      "ubigeoNivel03": 170107,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 86.973,
+      "asistentes": 17819
+     },
+     {
+      "ambitoGeografico": 1,
+      "ubigeoNivel01": 170000,
+      "ubigeoNivel02": 170100,
+      "ubigeoNivel03": 170101,
+      "distritoElectoral": null,
+      "porcentajeActasContabilizadas": null,
+      "actasContabilizadas": null,
+      "porcentajeAsistentes": 76.632,
+      "asistentes": 30118
+     }
+    ],
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "participacion-totales",
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170102"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/totales?idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel01=170000&ubigeoNivel02=170100&ubigeoNivel03=170102",
+   "response": {
+    "data": {
+     "totalElectoresHabiles": 2509,
+     "totalAsistentes": 1961,
+     "totalAusentes": 548,
+     "porcentajeAsistentes": 78.159,
+     "porcentajeAusentes": 21.841,
+     "ubigeoNivel01": null,
+     "ubigeoNivel02": null,
+     "ubigeoNivel03": null,
+     "idLocalVotacion": null
+    },
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "participacion-totales",
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170103"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/totales?idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel01=170000&ubigeoNivel02=170100&ubigeoNivel03=170103",
+   "response": {
+    "data": {
+     "totalElectoresHabiles": 1182,
+     "totalAsistentes": 993,
+     "totalAusentes": 189,
+     "porcentajeAsistentes": 84.01,
+     "porcentajeAusentes": 15.99,
+     "ubigeoNivel01": null,
+     "ubigeoNivel02": null,
+     "ubigeoNivel03": null,
+     "idLocalVotacion": null
+    },
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "participacion-totales",
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170101"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/totales?idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel01=170000&ubigeoNivel02=170100&ubigeoNivel03=170101",
+   "response": {
+    "data": {
+     "totalElectoresHabiles": 39302,
+     "totalAsistentes": 30118,
+     "totalAusentes": 9184,
+     "porcentajeAsistentes": 76.632,
+     "porcentajeAusentes": 23.368,
+     "ubigeoNivel01": null,
+     "ubigeoNivel02": null,
+     "ubigeoNivel03": null,
+     "idLocalVotacion": null
+    },
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "participacion-totales",
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170106"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/totales?idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel01=170000&ubigeoNivel02=170100&ubigeoNivel03=170106",
+   "response": {
+    "data": {
+     "totalElectoresHabiles": 7681,
+     "totalAsistentes": 6217,
+     "totalAusentes": 1464,
+     "porcentajeAsistentes": 80.94,
+     "porcentajeAusentes": 19.06,
+     "ubigeoNivel01": null,
+     "ubigeoNivel02": null,
+     "ubigeoNivel03": null,
+     "idLocalVotacion": null
+    },
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "participacion-totales",
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170107"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/totales?idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel01=170000&ubigeoNivel02=170100&ubigeoNivel03=170107",
+   "response": {
+    "data": {
+     "totalElectoresHabiles": 20488,
+     "totalAsistentes": 17819,
+     "totalAusentes": 2669,
+     "porcentajeAsistentes": 86.973,
+     "porcentajeAusentes": 13.027,
+     "ubigeoNivel01": null,
+     "ubigeoNivel02": null,
+     "ubigeoNivel03": null,
+     "idLocalVotacion": null
+    },
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "participacion-totales",
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170104"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/totales?idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel01=170000&ubigeoNivel02=170100&ubigeoNivel03=170104",
+   "response": {
+    "data": {
+     "totalElectoresHabiles": 2317,
+     "totalAsistentes": 1826,
+     "totalAusentes": 491,
+     "porcentajeAsistentes": 78.809,
+     "porcentajeAusentes": 21.191,
+     "ubigeoNivel01": null,
+     "ubigeoNivel02": null,
+     "ubigeoNivel03": null,
+     "idLocalVotacion": null
+    },
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  },
+  {
+   "kind": "participacion-totales",
+   "scope": {
+    "department": "170000",
+    "province": "170100",
+    "district": "170105"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/participacion-ciudadana/totales?idAmbitoGeografico=1&tipoFiltro=ubigeo_nivel_03&ubigeoNivel01=170000&ubigeoNivel02=170100&ubigeoNivel03=170105",
+   "response": {
+    "data": {
+     "totalElectoresHabiles": 8409,
+     "totalAsistentes": 7070,
+     "totalAusentes": 1339,
+     "porcentajeAsistentes": 84.077,
+     "porcentajeAusentes": 15.923,
+     "ubigeoNivel01": null,
+     "ubigeoNivel02": null,
+     "ubigeoNivel03": null,
+     "idLocalVotacion": null
+    },
+    "message": "Se ejecutó correctamente la operación",
+    "success": true
+   }
+  }
+ ],
+ "capturedAtNote": "Hora UTC de escritura del archivo (inmediatamente posterior a la captura en el navegador).",
+ "pageTimestamp": "2026-10-20T07:55:40Z",
+ "pageTimestampNote": "Hora de corte mostrada en la cabecera de la página de ONPE ('ACTUALIZADO AL ...', hora de Lima UTC-5) convertida a UTC."
+}

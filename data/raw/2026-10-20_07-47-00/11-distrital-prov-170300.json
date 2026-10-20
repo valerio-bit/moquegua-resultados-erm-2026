@@ -1,0 +1,242 @@
+{
+ "captureMethod": "manual-browser-capture",
+ "capturedAt": "2026-10-20T08:03:25Z",
+ "privacyNote": "dniCandidato reemplazado por \"[omitido]\" (minimización de datos personales).",
+ "pageNote": "Resumen General, bloque Municipal distrital, MOQUEGUA > ILO. ONPE ofrece EL ALGARROBAL y PACOCHA (ILO, capital provincial, no figura). Con sólo provincia seleccionada idEleccion=4 responde HTTP 204.",
+ "captures": [
+  {
+   "kind": "totales",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170300",
+    "district": "170302"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170300&idUbigeoDistrito=170302",
+   "response": {
+    "data": {
+     "actasContabilizadas": 100.0,
+     "contabilizadas": 12,
+     "totalActas": 12,
+     "participacionCiudadana": 87.43,
+     "actasEnviadasJee": 0.0,
+     "enviadasJee": 0,
+     "actasPendientesJee": 0.0,
+     "pendientesJee": 0,
+     "fechaActualizacion": "2026-10-20T07:55:40.834Z",
+     "idUbigeoDepartamento": 170000,
+     "idUbigeoProvincia": 170300,
+     "idUbigeoDistrito": 170302,
+     "idUbigeoDistritoElectoral": null,
+     "totalVotosEmitidos": 2956,
+     "totalVotosValidos": 2782,
+     "porcentajeVotosEmitidos": 100,
+     "porcentajeVotosValidos": 100
+    },
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "participantes",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170300",
+    "district": "170302"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/participantes?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170300&idUbigeoDistrito=170302",
+   "response": {
+    "data": [
+     {
+      "nombreAgrupacionPolitica": "ALIANZA PARA EL PROGRESO",
+      "codigoAgrupacionPolitica": 95,
+      "nombreCandidato": "JISSETH EMILIA QUICAÑO CUELLAR",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 67,
+      "porcentajeVotosValidos": 2.408,
+      "porcentajeVotosEmitidos": 2.267
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+      "codigoAgrupacionPolitica": 102,
+      "nombreCandidato": "RICHARD MARTIN ESPINOZA HUAYHUA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 88,
+      "porcentajeVotosValidos": 3.163,
+      "porcentajeVotosEmitidos": 2.977
+     },
+     {
+      "nombreAgrupacionPolitica": "PODEMOS PERÚ",
+      "codigoAgrupacionPolitica": 100,
+      "nombreCandidato": "EDDY ELMIR COARICONA NINA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 199,
+      "porcentajeVotosValidos": 7.153,
+      "porcentajeVotosEmitidos": 6.732
+     },
+     {
+      "nombreAgrupacionPolitica": "PERÚ MODERNO",
+      "codigoAgrupacionPolitica": 109,
+      "nombreCandidato": "FRANCISCO EUGENIO MANZANO CISNEROS",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 200,
+      "porcentajeVotosValidos": 7.189,
+      "porcentajeVotosEmitidos": 6.766
+     },
+     {
+      "nombreAgrupacionPolitica": "AHORA NACIÓN - AN",
+      "codigoAgrupacionPolitica": 123,
+      "nombreCandidato": "FERNANDO IVAN MAQUERA MAMANI",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 202,
+      "porcentajeVotosValidos": 7.261,
+      "porcentajeVotosEmitidos": 6.834
+     },
+     {
+      "nombreAgrupacionPolitica": "JUNTOS POR EL PERÚ",
+      "codigoAgrupacionPolitica": 96,
+      "nombreCandidato": "YASMANI HELBER GONZALES VALDIVIA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 209,
+      "porcentajeVotosValidos": 7.513,
+      "porcentajeVotosEmitidos": 7.07
+     },
+     {
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "codigoAgrupacionPolitica": 93,
+      "nombreCandidato": "NESTOR FIDEL MAMANI MAMANI",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 217,
+      "porcentajeVotosValidos": 7.8,
+      "porcentajeVotosEmitidos": 7.341
+     },
+     {
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "codigoAgrupacionPolitica": 122,
+      "nombreCandidato": "NÉSTOR RAÚL QUIÑONEZ PACCARI",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 229,
+      "porcentajeVotosValidos": 8.231,
+      "porcentajeVotosEmitidos": 7.747
+     },
+     {
+      "nombreAgrupacionPolitica": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+      "codigoAgrupacionPolitica": 113,
+      "nombreCandidato": "ESAU DANIEL CALAGUA QUISPE",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 597,
+      "porcentajeVotosValidos": 21.459,
+      "porcentajeVotosEmitidos": 20.196
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POLÍTICO PERÚ PRIMERO",
+      "codigoAgrupacionPolitica": 110,
+      "nombreCandidato": "SHANDEE RIQUELME YUJRA CUTIPA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 774,
+      "porcentajeVotosValidos": 27.822,
+      "porcentajeVotosEmitidos": 26.184
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "totales",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170300",
+    "district": "170303"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170300&idUbigeoDistrito=170303",
+   "response": {
+    "data": {
+     "actasContabilizadas": 100.0,
+     "contabilizadas": 17,
+     "totalActas": 17,
+     "participacionCiudadana": 74.764,
+     "actasEnviadasJee": 0.0,
+     "enviadasJee": 0,
+     "actasPendientesJee": 0.0,
+     "pendientesJee": 0,
+     "fechaActualizacion": "2026-10-20T07:55:40.834Z",
+     "idUbigeoDepartamento": 170000,
+     "idUbigeoProvincia": 170300,
+     "idUbigeoDistrito": 170303,
+     "idUbigeoDistritoElectoral": null,
+     "totalVotosEmitidos": 3804,
+     "totalVotosValidos": 3465,
+     "porcentajeVotosEmitidos": 100,
+     "porcentajeVotosValidos": 100
+    },
+    "message": "",
+    "success": true
+   }
+  },
+  {
+   "kind": "participantes",
+   "electionId": 4,
+   "scope": {
+    "department": "170000",
+    "province": "170300",
+    "district": "170303"
+   },
+   "sourceUrl": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/participantes?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170300&idUbigeoDistrito=170303",
+   "response": {
+    "data": [
+     {
+      "nombreAgrupacionPolitica": "AHORA NACIÓN - AN",
+      "codigoAgrupacionPolitica": 123,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 132,
+      "porcentajeVotosValidos": 3.81,
+      "porcentajeVotosEmitidos": 3.47
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO POPULAR CRISTIANO - PPC",
+      "codigoAgrupacionPolitica": 118,
+      "nombreCandidato": "",
+      "dniCandidato": "",
+      "totalVotosValidos": 271,
+      "porcentajeVotosValidos": 7.821,
+      "porcentajeVotosEmitidos": 7.124
+     },
+     {
+      "nombreAgrupacionPolitica": "PROGRESEMOS",
+      "codigoAgrupacionPolitica": 122,
+      "nombreCandidato": "CESAR CHRISTIAN BRAVO MEDINA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 347,
+      "porcentajeVotosValidos": 10.014,
+      "porcentajeVotosEmitidos": 9.122
+     },
+     {
+      "nombreAgrupacionPolitica": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+      "codigoAgrupacionPolitica": 102,
+      "nombreCandidato": "OSCAR HUGO VARGAS PARRA",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 1254,
+      "porcentajeVotosValidos": 36.19,
+      "porcentajeVotosEmitidos": 32.965
+     },
+     {
+      "nombreAgrupacionPolitica": "ACCIÓN POPULAR",
+      "codigoAgrupacionPolitica": 93,
+      "nombreCandidato": "ROBERT GLENN VALDIVIA MANRIQUE",
+      "dniCandidato": "[omitido]",
+      "totalVotosValidos": 1461,
+      "porcentajeVotosValidos": 42.165,
+      "porcentajeVotosEmitidos": 38.407
+     }
+    ],
+    "message": "",
+    "success": true
+   }
+  }
+ ],
+ "capturedAtNote": "Hora UTC de escritura del archivo (inmediatamente posterior a la captura en el navegador)."
+}
