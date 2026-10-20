@@ -21,6 +21,7 @@ export const NAV = [
   { href: "/provincias/", label: "Provincias" },
   { href: "/distritos/", label: "Distritos" },
   { href: "/partidos/", label: "Partidos" },
+  { href: "/explorar/", label: "Explorar" },
   { href: "/participacion/", label: "Participación y ausentismo" },
   { href: "/fuentes-y-metodologia/", label: "Fuentes y metodología" },
   { href: "/actualizar/", label: "Actualizar / Publicar" },

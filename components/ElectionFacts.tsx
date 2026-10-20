@@ -10,11 +10,11 @@ export function ActsProgress({ unit }: { unit: ElectionUnit }) {
       <p className="m-0 flex flex-wrap items-baseline gap-x-2 text-sm">
         <span className="num text-2xl font-semibold text-ink">{formatActsPct(unit.countedActsPct)}</span>
         <span className="text-ink-soft">
-          de actas contabilizadas ({formatInt(unit.countedActs)} de {formatInt(unit.totalActs)})
+          de actas contadas ({formatInt(unit.countedActs)} de {formatInt(unit.totalActs)})
         </span>
         <InfoTip label="actas contabilizadas">
-          Un acta contabilizada ya fue sumada al cómputo de ONPE. Las actas con observaciones se envían al Jurado Electoral Especial
-          (JEE) y no se suman hasta que este resuelve.
+          Un acta contada ya está sumada por ONPE. Las actas con problemas van al Jurado Electoral Especial (JEE) y se suman cuando
+          este decide.
         </InfoTip>
       </p>
       <div
@@ -27,9 +27,9 @@ export function ActsProgress({ unit }: { unit: ElectionUnit }) {
       </div>
       {(unit.jeeActs > 0 || unit.pendingActs > 0) && (
         <p className="mt-1.5 text-sm text-st-parcial">
-          {unit.jeeActs > 0 && `${formatInt(unit.jeeActs)} acta(s) enviada(s) al JEE. `}
-          {unit.pendingActs > 0 && `${formatInt(unit.pendingActs)} pendiente(s). `}
-          El resultado es provisional.
+          {unit.jeeActs > 0 && `${formatInt(unit.jeeActs)} acta(s) en el JEE. `}
+          {unit.pendingActs > 0 && `${formatInt(unit.pendingActs)} por contar. `}
+          El resultado aún puede cambiar.
         </p>
       )}
     </div>
@@ -39,11 +39,11 @@ export function ActsProgress({ unit }: { unit: ElectionUnit }) {
 /** Desglose de votos según el esquema de ONPE: emitidos = válidos + blancos + nulos. */
 export function VoteBreakdown({ unit }: { unit: ElectionUnit }) {
   const rows: { label: string; value: number | null; tip?: string }[] = [
-    { label: "Votos válidos", value: unit.validVotes, tip: "Votos por alguna organización política. Base de los porcentajes de candidaturas." },
-    { label: "Votos en blanco", value: unit.blankVotes, tip: "Cédulas sin ninguna marca. No son ausentismo: el elector sí votó." },
-    { label: "Votos nulos", value: unit.nullVotes, tip: "Cédulas marcadas de forma inválida. No son ausentismo: el elector sí votó." },
-    { label: "Votos emitidos", value: unit.votesCast, tip: "Total de votos depositados: válidos + blancos + nulos (esquema publicado por ONPE)." },
-    { label: "Electores hábiles", value: unit.eligibleVoters, tip: "Ciudadanos habilitados para votar en este ámbito (padrón)." },
+    { label: "Votos válidos", value: unit.validVotes, tip: "Votos por algún partido. Con ellos se calculan los porcentajes." },
+    { label: "Votos en blanco", value: unit.blankVotes, tip: "Cédula sin marcar. Esa persona sí votó." },
+    { label: "Votos nulos", value: unit.nullVotes, tip: "Cédula mal marcada. Esa persona sí votó." },
+    { label: "Votos emitidos", value: unit.votesCast, tip: "Todos los votos: válidos + blancos + nulos." },
+    { label: "Electores hábiles", value: unit.eligibleVoters, tip: "Personas que podían votar aquí." },
   ];
   return (
     <dl className="m-0 grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-3 lg:grid-cols-5">
@@ -61,8 +61,8 @@ export function VoteBreakdown({ unit }: { unit: ElectionUnit }) {
       ))}
       <div className="col-span-2 border-t border-rule pt-2 sm:col-span-3 lg:col-span-5">
         <p className="m-0 text-sm text-ink-soft">
-          Votos impugnados: ONPE no los publica por separado en este servicio; las actas observadas se resuelven en el JEE.
-          {unit.turnoutPct !== null && <> Participación en esta elección (emitidos ÷ hábiles, según ONPE): <span className="num font-medium text-ink">{formatPct(unit.turnoutPct)}</span>.</>}
+          ONPE no publica aparte los votos impugnados.
+          {unit.turnoutPct !== null && <> Participación en esta elección: <span className="num font-medium text-ink">{formatPct(unit.turnoutPct)}</span>.</>}
         </p>
       </div>
     </dl>
@@ -72,7 +72,7 @@ export function VoteBreakdown({ unit }: { unit: ElectionUnit }) {
 export function SourceNote({ unit }: { unit: ElectionUnit }) {
   return (
     <p className="mt-3 text-xs leading-relaxed text-ink-soft">
-      Fuente: ONPE, cómputo con corte del {formatDateTime(unit.sourceTimestamp)}. Servicio consultado:{" "}
+      Fuente: ONPE, conteo al {formatDateTime(unit.sourceTimestamp)}. Servicio:{" "}
       <a href={unit.sources.candidates} className="break-all">
         {new URL(unit.sources.candidates).pathname}
       </a>

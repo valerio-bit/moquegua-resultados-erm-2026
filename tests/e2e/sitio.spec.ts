@@ -22,7 +22,7 @@ test.describe("Inicio", () => {
     const body = (await page.locator("main").textContent()) ?? "";
     // Ninguna afirmación del tipo "X es/fue gobernador electo" o "alcalde electo/proclamado".
     expect(body).not.toMatch(/\b(es|fue|resultó|sería)\s+(el\s+|la\s+)?(nuevo\s+|nueva\s+)?(gobernador|gobernadora|alcalde|alcaldesa)\s+(electo|electa|proclamado|proclamada)/i);
-    expect(body).not.toMatch(/(alcalde|alcaldesa|gobernador|gobernadora)\s+(electo|electa)\b(?!\s*:)/i);
+    expect(body).not.toMatch(/(?<!no hay\s)(alcalde|alcaldesa|gobernador|gobernadora)\s+(electo|electa)\b/i);
     await expect(page.locator('[data-status="PROCLAMADO_JNE_JEE"]')).toHaveCount(0);
   });
 
@@ -127,7 +127,7 @@ test("Participación y ausentismo: región, provincias y distritos", async ({ pa
   await page.goto("/participacion/");
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("Participación y ausentismo");
   await expect(page.getByTestId("participation-table").locator("tbody tr")).toHaveCount(24);
-  await expect(page.getByText(/Dato provisional: 300 electores/).first()).toBeVisible();
+  await expect(page.getByText(/Dato provisional: faltan contar 300 electores/).first()).toBeVisible();
   await page.getByRole("button", { name: "Qué significa: ausentismo" }).first().click();
   await expect(page.getByRole("tooltip").filter({ hasText: "No confundir" })).toBeVisible();
 });
@@ -151,4 +151,48 @@ test("navegación por teclado: enlace para saltar al contenido", async ({ page, 
   await page.goto("/");
   await page.keyboard.press("Tab");
   await expect(page.getByRole("link", { name: "Saltar al contenido" })).toBeFocused();
+});
+
+test.describe("Explorar por partido y provincia", () => {
+  test("al filtrar un partido muestra desglose por provincia, ganadores, votos, votantes y % de hábiles", async ({ page }) => {
+    await page.goto("/explorar/?partido=accion-popular");
+    await expect(page.getByTestId("explorer-party")).toHaveValue("accion-popular");
+    await expect(page.getByTestId("explorer-summary")).toContainText("Acción Popular");
+    for (const g of ["Región Moquegua", "Provincia Mariscal Nieto", "Provincia General Sánchez Cerro", "Provincia Ilo"]) {
+      await expect(page.getByRole("heading", { name: g, exact: true })).toBeVisible();
+    }
+    const table = page.getByTestId("explorer-table").first();
+    for (const col of ["Primer lugar", "Hábiles", "Emitidos", "Válidos", "Blancos", "Nulos", "Ausentes", "Particip"]) {
+      await expect(table.getByRole("columnheader", { name: new RegExp(col) })).toBeVisible();
+    }
+    await expect(page.getByTestId("explorer-own").first()).toContainText("Puesto");
+    await expect(page.getByTestId("explorer-own").first()).toContainText("de hábiles");
+  });
+
+  test("filtra por provincia y elección", async ({ page }) => {
+    await page.goto("/explorar/");
+    await page.getByTestId("explorer-province").selectOption("ilo");
+    await page.getByTestId("explorer-election").selectOption("4");
+    await expect(page.getByTestId("explorer-table").locator("tbody tr")).toHaveCount(2);
+    await expect(page.getByRole("heading", { name: "Provincia Ilo", exact: true })).toBeVisible();
+    await expect(page).toHaveURL(/provincia=ilo/);
+  });
+
+  test("el buscador ofrece el desglose de un partido", async ({ page }) => {
+    await page.goto("/");
+    await page.getByTestId("search-input").fill("accion popular desglose");
+    await page.getByTestId("search-results").getByRole("link", { name: /desglose por provincia/ }).first().click();
+    await expect(page).toHaveURL(/\/explorar\/\?partido=accion-popular/);
+    await expect(page.getByTestId("explorer-party")).toHaveValue("accion-popular");
+  });
+});
+
+test("Inicio: resumen en lenguaje sencillo de todo Moquegua", async ({ page }) => {
+  await page.goto("/");
+  const s = page.getByTestId("plain-summary");
+  await expect(s.getByRole("heading", { name: "Moquegua en pocas palabras" })).toBeVisible();
+  for (const t of ["Gobernador regional.", "Alcaldes provinciales.", "Alcaldes distritales.", "Participación.", "Ir primero en el conteo no es haber ganado."]) {
+    await expect(s).toContainText(t);
+  }
+  await expect(s).toContainText("segunda vuelta");
 });

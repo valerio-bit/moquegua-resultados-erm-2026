@@ -9,15 +9,15 @@
     "electionDate": "2026-10-04",
     "department": "Moquegua",
     "departmentUbigeo": "170000",
-    "generatedAt": "2026-10-20T13:58:37.924Z",
-    "snapshotId": "2026-10-20_13-58-37",
+    "generatedAt": "2026-10-20T16:19:15.920Z",
+    "snapshotId": "2026-10-20_16-19-15",
     "rawFolder": "2026-10-20_07-47-00",
     "captureMethods": [
       "manual-browser-capture"
     ],
     "sourceTimestampMin": "2026-10-20T07:46:00.204Z",
     "sourceTimestampMax": "2026-10-20T13:30:27.267Z",
-    "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8",
+    "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a",
     "secondRoundRule": {
       "thresholdPct": 30,
       "electionDate": "2026-12-06",
@@ -584,7 +584,7 @@
           "93",
           "94"
         ],
-        "note": "Ninguna fórmula alcanza el 30 % de votos válidos en el cómputo ONPE al 100 %: corresponde segunda elección entre las dos más votadas. Pendiente de proclamación y convocatoria oficial del JNE."
+        "note": "Con todas las actas contadas, nadie llegó al 30 % de votos válidos. Los dos primeros irían a segunda vuelta. Falta que el JNE lo proclame y convoque."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=1&tipoFiltro=ubigeo_nivel_01&idAmbitoGeografico=1&idUbigeoDepartamento=170000",
@@ -623,7 +623,7 @@
         "organizationCodes": [
           "93"
         ],
-        "note": "Votación por listas. La asignación de consejeros la realiza el Jurado Electoral; este sitio no calcula escaños."
+        "note": "Se vota por listas. El Jurado Electoral reparte los asientos; aquí no se calculan."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=2&tipoFiltro=ubigeo_nivel_02&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100",
@@ -662,7 +662,7 @@
         "organizationCodes": [
           "93"
         ],
-        "note": "Votación por listas. La asignación de consejeros la realiza el Jurado Electoral; este sitio no calcula escaños."
+        "note": "Se vota por listas. El Jurado Electoral reparte los asientos; aquí no se calculan."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=2&tipoFiltro=ubigeo_nivel_02&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170200",
@@ -701,7 +701,7 @@
         "organizationCodes": [
           "155"
         ],
-        "note": "Votación por listas. La asignación de consejeros la realiza el Jurado Electoral; este sitio no calcula escaños."
+        "note": "Se vota por listas. El Jurado Electoral reparte los asientos; aquí no se calculan."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=2&tipoFiltro=ubigeo_nivel_02&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170300",
@@ -740,7 +740,7 @@
         "organizationCodes": [
           "93"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=3&tipoFiltro=ubigeo_nivel_02&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100",
@@ -779,7 +779,7 @@
         "organizationCodes": [
           "110"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=3&tipoFiltro=ubigeo_nivel_02&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170200",
@@ -818,7 +818,7 @@
         "organizationCodes": [
           "104"
         ],
-        "note": "Cómputo ONPE al 99.567 % de actas contabilizadas; resultado aún no definitivo."
+        "note": "ONPE contó el 99.567 % de las actas. Falta contar el resto: el resultado puede cambiar."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=3&tipoFiltro=ubigeo_nivel_02&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170300",
@@ -858,7 +858,7 @@
         "organizationCodes": [
           "95"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100&idUbigeoDistrito=170102",
@@ -898,7 +898,7 @@
         "organizationCodes": [
           "93"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100&idUbigeoDistrito=170103",
@@ -938,7 +938,7 @@
         "organizationCodes": [
           "110"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100&idUbigeoDistrito=170104",
@@ -978,7 +978,7 @@
         "organizationCodes": [
           "113"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100&idUbigeoDistrito=170105",
@@ -1018,7 +1018,7 @@
         "organizationCodes": [
           "95"
         ],
-        "note": "Cómputo ONPE al 96.154 % de actas contabilizadas; resultado aún no definitivo."
+        "note": "ONPE contó el 96.154 % de las actas. Falta contar el resto: el resultado puede cambiar."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100&idUbigeoDistrito=170106",
@@ -1058,7 +1058,7 @@
         "organizationCodes": [
           "123"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170100&idUbigeoDistrito=170107",
@@ -1098,7 +1098,7 @@
         "organizationCodes": [
           "110"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170200&idUbigeoDistrito=170202",
@@ -1138,7 +1138,7 @@
         "organizationCodes": [
           "110"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170200&idUbigeoDistrito=170203",
@@ -1178,7 +1178,7 @@
         "organizationCodes": [
           "93"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170200&idUbigeoDistrito=170204",
@@ -1218,7 +1218,7 @@
         "organizationCodes": [
           "93"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170200&idUbigeoDistrito=170205",
@@ -1258,7 +1258,7 @@
         "organizationCodes": [
           "95"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170200&idUbigeoDistrito=170206",
@@ -1298,7 +1298,7 @@
         "organizationCodes": [
           "122"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170200&idUbigeoDistrito=170207",
@@ -1338,7 +1338,7 @@
         "organizationCodes": [
           "110"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170200&idUbigeoDistrito=170208",
@@ -1378,7 +1378,7 @@
         "organizationCodes": [
           "110"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170200&idUbigeoDistrito=170209",
@@ -1418,7 +1418,7 @@
         "organizationCodes": [
           "118"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170200&idUbigeoDistrito=170210",
@@ -1458,7 +1458,7 @@
         "organizationCodes": [
           "93"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170200&idUbigeoDistrito=170211",
@@ -1498,7 +1498,7 @@
         "organizationCodes": [
           "110"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170300&idUbigeoDistrito=170302",
@@ -1538,7 +1538,7 @@
         "organizationCodes": [
           "93"
         ],
-        "note": "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación."
+        "note": "Todas las actas están contadas. Aún no es una proclamación."
       },
       "sources": {
         "totals": "https://resultadoelectoral.onpe.gob.pe/presentacion-backend/resumen-general/totales?idEleccion=4&tipoFiltro=ubigeo_nivel_03&idAmbitoGeografico=1&idUbigeoDepartamento=170000&idUbigeoProvincia=170300&idUbigeoDistrito=170303",
@@ -1582,8 +1582,8 @@
       "emittedVotePct": 22.869,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Ninguna fórmula alcanza el 30 % de votos válidos en el cómputo ONPE al 100 %: corresponde segunda elección entre las dos más votadas. Pendiente de proclamación y convocatoria oficial del JNE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Con todas las actas contadas, nadie llegó al 30 % de votos válidos. Los dos primeros irían a segunda vuelta. Falta que el JNE lo proclame y convoque.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 1,
@@ -1616,8 +1616,8 @@
       "emittedVotePct": 22.11,
       "candidateNameMissing": false,
       "isLeading": false,
-      "statusNote": "Ninguna fórmula alcanza el 30 % de votos válidos en el cómputo ONPE al 100 %: corresponde segunda elección entre las dos más votadas. Pendiente de proclamación y convocatoria oficial del JNE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Con todas las actas contadas, nadie llegó al 30 % de votos válidos. Los dos primeros irían a segunda vuelta. Falta que el JNE lo proclame y convoque.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 1,
@@ -1650,7 +1650,7 @@
       "emittedVotePct": 15.429,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 1,
@@ -1683,7 +1683,7 @@
       "emittedVotePct": 6.696,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 1,
@@ -1716,7 +1716,7 @@
       "emittedVotePct": 4.84,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 1,
@@ -1749,7 +1749,7 @@
       "emittedVotePct": 4.306,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 1,
@@ -1782,7 +1782,7 @@
       "emittedVotePct": 4.219,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 1,
@@ -1815,7 +1815,7 @@
       "emittedVotePct": 3.826,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 1,
@@ -1848,7 +1848,7 @@
       "emittedVotePct": 1.465,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 1,
@@ -1881,7 +1881,7 @@
       "emittedVotePct": 1.441,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 1,
@@ -1914,7 +1914,7 @@
       "emittedVotePct": 0.696,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -1948,8 +1948,8 @@
       "emittedVotePct": 29.675,
       "candidateNameMissing": true,
       "isLeading": true,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -1983,8 +1983,8 @@
       "emittedVotePct": 9.486,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2018,8 +2018,8 @@
       "emittedVotePct": 8.16,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2053,8 +2053,8 @@
       "emittedVotePct": 7.378,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2088,8 +2088,8 @@
       "emittedVotePct": 7.21,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2123,8 +2123,8 @@
       "emittedVotePct": 5.28,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2158,8 +2158,8 @@
       "emittedVotePct": 3.469,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2193,8 +2193,8 @@
       "emittedVotePct": 2.812,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2228,8 +2228,8 @@
       "emittedVotePct": 0.718,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2263,8 +2263,8 @@
       "emittedVotePct": 28.318,
       "candidateNameMissing": true,
       "isLeading": true,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2298,8 +2298,8 @@
       "emittedVotePct": 12.082,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2333,8 +2333,8 @@
       "emittedVotePct": 11.264,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2368,8 +2368,8 @@
       "emittedVotePct": 6.119,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2403,8 +2403,8 @@
       "emittedVotePct": 5.112,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2438,8 +2438,8 @@
       "emittedVotePct": 3.435,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2473,8 +2473,8 @@
       "emittedVotePct": 2.469,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2508,8 +2508,8 @@
       "emittedVotePct": 1.173,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2543,8 +2543,8 @@
       "emittedVotePct": 0.33,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2578,8 +2578,8 @@
       "emittedVotePct": 21.419,
       "candidateNameMissing": true,
       "isLeading": true,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2613,8 +2613,8 @@
       "emittedVotePct": 18.866,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2648,8 +2648,8 @@
       "emittedVotePct": 14.049,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2683,8 +2683,8 @@
       "emittedVotePct": 6.736,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2718,8 +2718,8 @@
       "emittedVotePct": 5.766,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2753,8 +2753,8 @@
       "emittedVotePct": 4.539,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2788,8 +2788,8 @@
       "emittedVotePct": 2.91,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2823,8 +2823,8 @@
       "emittedVotePct": 1.788,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 2,
@@ -2858,8 +2858,8 @@
       "emittedVotePct": 1.214,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Lista para el consejo regional. ONPE no publica aquí los nombres.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -2893,8 +2893,8 @@
       "emittedVotePct": 26.161,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -2928,7 +2928,7 @@
       "emittedVotePct": 22.62,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -2962,7 +2962,7 @@
       "emittedVotePct": 14.045,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -2996,7 +2996,7 @@
       "emittedVotePct": 8.872,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3030,7 +3030,7 @@
       "emittedVotePct": 8.386,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3065,7 +3065,7 @@
       "candidateNameMissing": false,
       "nameNormalizedFrom": "ALEJANDRO JOSE MENDOZA null",
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3099,7 +3099,7 @@
       "emittedVotePct": 1.86,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3133,7 +3133,7 @@
       "emittedVotePct": 1.695,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3167,7 +3167,7 @@
       "emittedVotePct": 1.521,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3201,7 +3201,7 @@
       "emittedVotePct": 0.844,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3235,7 +3235,7 @@
       "emittedVotePct": 0.779,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3269,7 +3269,7 @@
       "emittedVotePct": 0.406,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3303,7 +3303,7 @@
       "emittedVotePct": 0.391,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3337,8 +3337,8 @@
       "emittedVotePct": 24.073,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3372,7 +3372,7 @@
       "emittedVotePct": 22.017,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3406,8 +3406,8 @@
       "emittedVotePct": 14.386,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "ONPE publica votos para esta organización sin consignar el nombre del candidato.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "ONPE muestra los votos de este partido sin el nombre del candidato.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3441,7 +3441,7 @@
       "emittedVotePct": 12.065,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3475,7 +3475,7 @@
       "emittedVotePct": 8.671,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3509,7 +3509,7 @@
       "emittedVotePct": 4.542,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3543,7 +3543,7 @@
       "emittedVotePct": 23.197,
       "candidateNameMissing": false,
       "isLeading": true,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3578,7 +3578,7 @@
       "candidateNameMissing": false,
       "nameNormalizedFrom": "RICHARD GUILLERMO REVOLLAR null",
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3612,7 +3612,7 @@
       "emittedVotePct": 14.663,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3646,7 +3646,7 @@
       "emittedVotePct": 12.138,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3680,8 +3680,8 @@
       "emittedVotePct": 4.78,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "ONPE publica votos para esta organización sin consignar el nombre del candidato.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "ONPE muestra los votos de este partido sin el nombre del candidato.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3715,7 +3715,7 @@
       "emittedVotePct": 2.569,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3749,7 +3749,7 @@
       "emittedVotePct": 2.286,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3783,7 +3783,7 @@
       "emittedVotePct": 2.134,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3817,7 +3817,7 @@
       "emittedVotePct": 1.929,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3851,7 +3851,7 @@
       "emittedVotePct": 0.861,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3885,7 +3885,7 @@
       "emittedVotePct": 0.836,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3919,7 +3919,7 @@
       "emittedVotePct": 0.657,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3953,7 +3953,7 @@
       "emittedVotePct": 0.51,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -3987,7 +3987,7 @@
       "emittedVotePct": 0.073,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 3,
@@ -4021,7 +4021,7 @@
       "emittedVotePct": 0.062,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4056,8 +4056,8 @@
       "emittedVotePct": 47.068,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4092,7 +4092,7 @@
       "emittedVotePct": 22.285,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4127,7 +4127,7 @@
       "emittedVotePct": 11.882,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4162,7 +4162,7 @@
       "emittedVotePct": 2.193,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4197,8 +4197,8 @@
       "emittedVotePct": 45.116,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4233,7 +4233,7 @@
       "emittedVotePct": 33.233,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4268,7 +4268,7 @@
       "emittedVotePct": 9.869,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4303,8 +4303,8 @@
       "emittedVotePct": 38.664,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4339,7 +4339,7 @@
       "emittedVotePct": 34.94,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4374,7 +4374,7 @@
       "emittedVotePct": 19.113,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4409,8 +4409,8 @@
       "emittedVotePct": 41.499,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4445,7 +4445,7 @@
       "emittedVotePct": 37.1,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4480,7 +4480,7 @@
       "emittedVotePct": 5.771,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4515,7 +4515,7 @@
       "emittedVotePct": 2.9,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4550,7 +4550,7 @@
       "emittedVotePct": 2.673,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4585,7 +4585,7 @@
       "emittedVotePct": 1.895,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4620,7 +4620,7 @@
       "emittedVotePct": 0.919,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4655,7 +4655,7 @@
       "emittedVotePct": 0.905,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4690,7 +4690,7 @@
       "emittedVotePct": 40.09,
       "candidateNameMissing": false,
       "isLeading": true,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4725,7 +4725,7 @@
       "emittedVotePct": 35.617,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4760,7 +4760,7 @@
       "emittedVotePct": 4.322,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4795,7 +4795,7 @@
       "emittedVotePct": 4.121,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4830,7 +4830,7 @@
       "emittedVotePct": 3.317,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4865,8 +4865,8 @@
       "emittedVotePct": 2.161,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "ONPE publica votos para esta organización sin consignar el nombre del candidato.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "ONPE muestra los votos de este partido sin el nombre del candidato.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4901,8 +4901,8 @@
       "emittedVotePct": 1.407,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "ONPE publica votos para esta organización sin consignar el nombre del candidato.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "ONPE muestra los votos de este partido sin el nombre del candidato.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4937,8 +4937,8 @@
       "emittedVotePct": 40.603,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -4973,7 +4973,7 @@
       "emittedVotePct": 20.214,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5008,7 +5008,7 @@
       "emittedVotePct": 17.201,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5043,7 +5043,7 @@
       "emittedVotePct": 6.544,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5078,7 +5078,7 @@
       "emittedVotePct": 3.216,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5113,7 +5113,7 @@
       "emittedVotePct": 2.458,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5148,7 +5148,7 @@
       "emittedVotePct": 1.066,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5183,7 +5183,7 @@
       "emittedVotePct": 0.797,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5218,7 +5218,7 @@
       "emittedVotePct": 0.746,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5253,8 +5253,8 @@
       "emittedVotePct": 30.012,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5289,7 +5289,7 @@
       "emittedVotePct": 25.741,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5324,7 +5324,7 @@
       "emittedVotePct": 18.387,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5359,7 +5359,7 @@
       "emittedVotePct": 13.76,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5394,8 +5394,8 @@
       "emittedVotePct": 34.975,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5430,7 +5430,7 @@
       "emittedVotePct": 28.03,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5465,7 +5465,7 @@
       "emittedVotePct": 17.803,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5500,7 +5500,7 @@
       "emittedVotePct": 10.354,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5535,8 +5535,8 @@
       "emittedVotePct": 30.773,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5571,7 +5571,7 @@
       "emittedVotePct": 20.691,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5606,7 +5606,7 @@
       "emittedVotePct": 19.107,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5641,7 +5641,7 @@
       "emittedVotePct": 11.954,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5676,7 +5676,7 @@
       "emittedVotePct": 4.081,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5711,7 +5711,7 @@
       "emittedVotePct": 3.313,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5746,8 +5746,8 @@
       "emittedVotePct": 59.971,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5782,7 +5782,7 @@
       "emittedVotePct": 30.792,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5817,8 +5817,8 @@
       "emittedVotePct": 2.053,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "ONPE publica votos para esta organización sin consignar el nombre del candidato.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "ONPE muestra los votos de este partido sin el nombre del candidato.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5853,8 +5853,8 @@
       "emittedVotePct": 35.678,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5889,7 +5889,7 @@
       "emittedVotePct": 28.643,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5924,7 +5924,7 @@
       "emittedVotePct": 25.628,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5959,8 +5959,8 @@
       "emittedVotePct": 1.005,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "ONPE publica votos para esta organización sin consignar el nombre del candidato.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "ONPE muestra los votos de este partido sin el nombre del candidato.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -5995,8 +5995,8 @@
       "emittedVotePct": 33.686,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6031,7 +6031,7 @@
       "emittedVotePct": 21.693,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6066,7 +6066,7 @@
       "emittedVotePct": 20.459,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6101,7 +6101,7 @@
       "emittedVotePct": 6.349,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6136,7 +6136,7 @@
       "emittedVotePct": 6.173,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6171,7 +6171,7 @@
       "emittedVotePct": 4.056,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6206,8 +6206,8 @@
       "emittedVotePct": 38.983,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6242,7 +6242,7 @@
       "emittedVotePct": 24.932,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6277,7 +6277,7 @@
       "emittedVotePct": 20.995,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6312,8 +6312,8 @@
       "emittedVotePct": 52.564,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6348,7 +6348,7 @@
       "emittedVotePct": 28.205,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6383,7 +6383,7 @@
       "emittedVotePct": 7.906,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6418,7 +6418,7 @@
       "emittedVotePct": 6.197,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6453,8 +6453,8 @@
       "emittedVotePct": 23.786,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6489,7 +6489,7 @@
       "emittedVotePct": 17.597,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6524,8 +6524,8 @@
       "emittedVotePct": 16.626,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "ONPE publica votos para esta organización sin consignar el nombre del candidato.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "ONPE muestra los votos de este partido sin el nombre del candidato.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6560,7 +6560,7 @@
       "emittedVotePct": 15.716,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6595,7 +6595,7 @@
       "emittedVotePct": 12.136,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6630,8 +6630,8 @@
       "emittedVotePct": 28.951,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6666,7 +6666,7 @@
       "emittedVotePct": 22.222,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6701,7 +6701,7 @@
       "emittedVotePct": 21.127,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6736,7 +6736,7 @@
       "emittedVotePct": 15.649,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6771,8 +6771,8 @@
       "emittedVotePct": 26.184,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6807,7 +6807,7 @@
       "emittedVotePct": 20.196,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6842,7 +6842,7 @@
       "emittedVotePct": 7.747,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6877,7 +6877,7 @@
       "emittedVotePct": 7.341,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6912,7 +6912,7 @@
       "emittedVotePct": 7.07,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6947,7 +6947,7 @@
       "emittedVotePct": 6.834,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -6982,7 +6982,7 @@
       "emittedVotePct": 6.766,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -7017,7 +7017,7 @@
       "emittedVotePct": 6.732,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -7052,7 +7052,7 @@
       "emittedVotePct": 2.977,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -7087,7 +7087,7 @@
       "emittedVotePct": 2.267,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -7122,8 +7122,8 @@
       "emittedVotePct": 38.407,
       "candidateNameMissing": false,
       "isLeading": true,
-      "statusNote": "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -7158,7 +7158,7 @@
       "emittedVotePct": 32.965,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -7193,7 +7193,7 @@
       "emittedVotePct": 9.122,
       "candidateNameMissing": false,
       "isLeading": false,
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -7228,8 +7228,8 @@
       "emittedVotePct": 7.124,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "ONPE publica votos para esta organización sin consignar el nombre del candidato.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "ONPE muestra los votos de este partido sin el nombre del candidato.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     },
     {
       "electionId": 4,
@@ -7264,8 +7264,8 @@
       "emittedVotePct": 3.47,
       "candidateNameMissing": true,
       "isLeading": false,
-      "statusNote": "ONPE publica votos para esta organización sin consignar el nombre del candidato.",
-      "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8"
+      "statusNote": "ONPE muestra los votos de este partido sin el nombre del candidato.",
+      "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a"
     }
   ],
   "participation": [

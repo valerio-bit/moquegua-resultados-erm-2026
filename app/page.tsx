@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { GovernorSummary } from "@/components/GovernorSummary";
+import { PlainSummary } from "@/components/PlainSummary";
 import { ProvinceSummary } from "@/components/ProvinceSummary";
 import { ParticipationBar } from "@/components/ParticipationBar";
 import { PartyLogo } from "@/components/PartyLogo";
@@ -45,15 +46,24 @@ export default function HomePage() {
         </div>
       </header>
 
-      <GovernorSummary />
+      <PlainSummary />
+
+      <GovernorSummary brief />
 
       <section aria-labelledby="explorar" className="rounded-sm border border-rule bg-surface p-4 sm:p-6">
         <h2 id="explorar" className="m-0 mb-4 text-2xl">
-          Busca o elige un territorio
+          Busca tu distrito, candidato o partido
         </h2>
         <div className="grid gap-6 lg:grid-cols-2">
           <SearchBox index={buildSearchIndex(ds)} />
-          <TerritorySelector provinces={territory} />
+          <div className="space-y-4">
+            <TerritorySelector provinces={territory} />
+            <p className="m-0 text-sm">
+              <Link href="/explorar/" className="font-semibold">
+                Ver un partido provincia por provincia
+              </Link>
+            </p>
+          </div>
         </div>
       </section>
 
@@ -77,8 +87,8 @@ export default function HomePage() {
           <div className="table-wrap mt-3">
             <table className="data-table">
               <caption>
-                Primeros lugares en el cómputo ONPE de {totalMayoralties} alcaldías ({complete} con actas al 100 %). No son autoridades
-                electas ni proclamadas.
+                Quién va primero en las {totalMayoralties} alcaldías ({complete} con todas las actas contadas). Todavía no son autoridades
+                electas.
               </caption>
               <thead>
                 <tr>
@@ -110,7 +120,7 @@ export default function HomePage() {
             </table>
           </div>
           <p className="mt-3 text-sm">
-            <Link href="/partidos/">Ver el panel de todas las organizaciones</Link>
+            <Link href="/partidos/">Ver todos los partidos</Link>
           </p>
         </section>
 

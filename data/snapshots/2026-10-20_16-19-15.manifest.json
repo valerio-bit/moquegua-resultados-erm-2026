@@ -1,0 +1,18 @@
+{
+  "source": "ONPE",
+  "fetchedAt": "2026-10-20T16:19:15.920Z",
+  "records": 164,
+  "sha256": "cad4bde4fb3647c258c60826711d90de2b17f9d8cac09547ac5ef83fa7f4084e",
+  "validationPassed": true,
+  "publishable": true,
+  "snapshotId": "2026-10-20_16-19-15",
+  "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a",
+  "rawFolder": "2026-10-20_07-47-00",
+  "captureMethods": [
+    "manual-browser-capture"
+  ],
+  "sourceTimestampMin": "2026-10-20T07:46:00.204Z",
+  "sourceTimestampMax": "2026-10-20T13:30:27.267Z",
+  "generatedAt": "2026-10-20T16:19:15.920Z",
+  "buildIssues": []
+}

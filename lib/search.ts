@@ -42,6 +42,13 @@ export function buildSearchIndex(ds: Dataset): SearchEntry[] {
       href: `/partidos/${o.slug}/`,
       haystack: normalizeForSearch(`${o.name} ${o.displayName} ${o.shortName ?? ""}`),
     });
+    entries.push({
+      type: "Organización",
+      title: `${o.displayName}: desglose por provincia`,
+      subtitle: "Dónde compite, quién gana, votos y clasificación de votantes",
+      href: `/explorar/?partido=${o.slug}`,
+      haystack: normalizeForSearch(`${o.name} ${o.displayName} ${o.shortName ?? ""} explorar desglose provincia distritos`),
+    });
   }
   for (const r of ds.results) {
     if (!r.candidateName) continue;

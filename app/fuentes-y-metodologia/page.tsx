@@ -79,10 +79,9 @@ export default function FuentesPage() {
           Cómo se capturaron
         </h2>
         <p className="prose-note m-0">
-          Los servicios de ONPE están protegidos por un firewall de aplicaciones (AWS WAF) que rechaza las consultas automatizadas
-          desde scripts (HTTP 403 o desafío). No se intentó evadir esa protección. Los datos de esta versión se obtuvieron navegando el
-          portal público con un navegador y guardando las respuestas JSON que la propia página carga (modo de importación manual).
-          Cada respuesta se guardó con su URL, la hora de captura y la hora de corte de ONPE, y se verificó que los totales cuadren.
+          ONPE bloquea las consultas automáticas con un firewall (AWS WAF). No lo saltamos: abrimos el portal en un navegador, como
+          cualquier persona, y guardamos los datos que la propia página carga. Cada dato guarda su enlace, la hora en que lo copiamos y
+          la hora del conteo de ONPE. Después revisamos que todas las sumas cuadren.
         </p>
         <dl className="m-0 grid gap-x-8 gap-y-2 text-sm sm:grid-cols-2">
           <div>

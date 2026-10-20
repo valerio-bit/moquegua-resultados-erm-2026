@@ -58,8 +58,7 @@ export default function ParticipacionPage() {
         <div className="table-wrap mt-4">
           <table className="data-table" data-testid="participation-table">
             <caption>
-              Electores hábiles, votantes y ausentes según ONPE (módulo Participación ciudadana). Los pendientes son electores de actas
-              aún no contabilizadas: no se cuentan como ausentes.
+              Cuánta gente podía votar, cuánta votó y cuánta no fue (ONPE). «Pendientes» son electores de actas que aún no se cuentan.
             </caption>
             <thead>
               <tr>
@@ -109,7 +108,7 @@ export default function ParticipacionPage() {
             Participación
             <InfoTip label="fórmula de participación">participación = votaron ÷ electores hábiles × 100</InfoTip>
           </h3>
-          <p className="mt-1">Porcentaje de electores hábiles que acudió a votar, incluidos quienes votaron en blanco o nulo.</p>
+          <p className="mt-1">De cada 100 personas que podían votar, cuántas votaron. Cuenta también el voto en blanco y nulo.</p>
         </div>
         <div>
           <h3 className="m-0 text-lg">
@@ -117,22 +116,21 @@ export default function ParticipacionPage() {
             <InfoTip label="fórmula de ausentismo">ausentes = hábiles − votaron; ausentismo = ausentes ÷ hábiles × 100</InfoTip>
           </h3>
           <p className="mt-1">
-            Electores hábiles que no votaron. No es lo mismo que voto en blanco, nulo o impugnado: en esos casos el elector sí votó.
+            Personas que podían votar y no fueron. No es lo mismo que voto en blanco o nulo: esa gente sí votó.
           </p>
         </div>
         <div>
           <h3 className="m-0 text-lg">Electores pendientes</h3>
           <p className="mt-1">
-            Mientras un acta esté en el Jurado Electoral Especial, ONPE no clasifica a sus electores como votantes ni como ausentes. Este
-            sitio los muestra aparte y marca el dato como provisional. Cuando no hay pendientes se cumple exactamente que ausentes =
-            hábiles − votaron.
+            Si un acta está en el Jurado Electoral Especial, ONPE todavía no cuenta a sus electores ni como votantes ni como ausentes. Los
+            mostramos aparte y el dato queda como provisional.
           </p>
         </div>
         <div>
           <h3 className="m-0 text-lg">Base de cálculo</h3>
           <p className="mt-1">
-            Cifras del módulo de participación ciudadana de ONPE, que usa las actas de la elección municipal provincial. La participación
-            de cada elección (votos emitidos ÷ hábiles) se muestra en su propia página.
+            Son las cifras de participación de ONPE, que usan las actas de la elección de alcalde provincial. Cada elección muestra
+            además su propia participación.
           </p>
         </div>
       </section>

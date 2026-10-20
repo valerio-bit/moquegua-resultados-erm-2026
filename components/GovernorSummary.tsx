@@ -10,17 +10,17 @@ const dateFmt = new Intl.DateTimeFormat("es-PE", { day: "numeric", month: "long"
 export function governorHeadline(kind: string): string {
   switch (kind) {
     case "SEGUNDA_VUELTA":
-      return "El Gobierno Regional se define en segunda vuelta";
+      return "Gobierno Regional: rumbo a segunda vuelta";
     case "PRIMER_LUGAR_VIRTUAL":
-      return "Gobierno Regional: hay un primer lugar virtual";
+      return "Gobierno Regional: ya hay un primer lugar";
     case "PROCLAMADO":
-      return "Gobierno Regional: fórmula proclamada";
+      return "Gobierno Regional: ya hay proclamación";
     default:
-      return "Gobierno Regional: cómputo en curso";
+      return "Gobierno Regional: el conteo sigue";
   }
 }
 
-export function GovernorSummary({ headingLevel = 2, showLink = true }: { headingLevel?: 1 | 2; showLink?: boolean }) {
+export function GovernorSummary({ headingLevel = 2, showLink = true, brief = false }: { headingLevel?: 1 | 2; showLink?: boolean; brief?: boolean }) {
   const { unit, results } = getGovernor();
   const { meta } = getDataset();
   const orgs = orgMap();
@@ -42,9 +42,9 @@ export function GovernorSummary({ headingLevel = 2, showLink = true }: { heading
         </H>
         {unit.outcome.kind === "SEGUNDA_VUELTA" && runoff.length === 2 ? (
           <div className="prose-note mt-4 space-y-3 text-[1.0625rem]">
-            <p className="m-0">
-              Con el {formatActsPct(unit.countedActsPct)} de actas contabilizadas por ONPE, ninguna fórmula alcanza el {rule.thresholdPct} % de
-              votos válidos que exige la ley para ganar en primera vuelta.
+            <p className="m-0" hidden={brief}>
+              ONPE ya contó el {formatActsPct(unit.countedActsPct)} de las actas. Nadie llegó al {rule.thresholdPct} % de votos válidos, el
+              mínimo para ganar en primera vuelta.
             </p>
             <ol className="m-0 list-decimal space-y-1.5 pl-6 marker:font-semibold marker:text-st-segunda">
               {runoff.map((r) => (
@@ -55,17 +55,16 @@ export function GovernorSummary({ headingLevel = 2, showLink = true }: { heading
               ))}
             </ol>
             <p className="m-0">
-              Ambas fórmulas irían a la segunda elección regional del {dateFmt.format(new Date(`${rule.electionDate}T00:00:00Z`))},{" "}
-              según la regla oficializada por el JNE (<a href={rule.sourceUrl}>fuente</a>). <strong>Aún no hay gobernador electo</strong>: falta la
-              proclamación del Jurado Electoral y la segunda votación.
+              Los dos irían a segunda vuelta el {dateFmt.format(new Date(`${rule.electionDate}T00:00:00Z`))} (
+              <a href={rule.sourceUrl}>regla del JNE</a>). <strong>Aún no hay gobernador electo.</strong>
             </p>
           </div>
         ) : (
           <p className="prose-note mt-4 text-[1.0625rem]">
             {top ? (
               <>
-                Encabeza el cómputo {titleCase(top.candidateName)} ({name(top.organizationCode)}) con {formatPct(top.validVotePct)} de votos
-                válidos. {unit.outcome.note}
+                Va primero {titleCase(top.candidateName)} ({name(top.organizationCode)}) con {formatPct(top.validVotePct)} de votos válidos.{" "}
+                {unit.outcome.note}
               </>
             ) : (
               unit.outcome.note
@@ -75,7 +74,7 @@ export function GovernorSummary({ headingLevel = 2, showLink = true }: { heading
         {showLink && (
           <p className="mt-5">
             <Link href="/gobierno-regional/" className="font-semibold">
-              Ver las {results.length} fórmulas y el detalle de votos
+              Ver los {results.length} candidatos y sus votos
             </Link>
           </p>
         )}

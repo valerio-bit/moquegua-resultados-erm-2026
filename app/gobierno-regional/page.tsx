@@ -33,7 +33,7 @@ export default function GobiernoRegionalPage() {
             unit={unit}
             results={results}
             orgs={orgs}
-            caption={`Gobernador y vicegobernador regional de Moquegua: ${results.length} fórmulas ordenadas por votos (cómputo ONPE).`}
+            caption={`Gobernador regional de Moquegua: ${results.length} fórmulas, de más a menos votos (conteo ONPE).`}
           />
         </div>
         <SourceNote unit={unit} />
@@ -42,7 +42,7 @@ export default function GobiernoRegionalPage() {
       <section aria-labelledby="votos" className="grid gap-8 lg:grid-cols-[2fr_1fr]">
         <div>
           <h2 id="votos" className="m-0 mb-4 text-2xl">
-            Votos emitidos, válidos, blancos y nulos
+            Cómo votó la gente
           </h2>
           <VoteBreakdown unit={unit} />
         </div>
@@ -57,8 +57,8 @@ export default function GobiernoRegionalPage() {
           Consejo Regional
         </h2>
         <p className="prose-note mt-3 text-ink-soft">
-          Los consejeros regionales se eligen por listas en cada provincia. Se muestran los votos de cada lista según ONPE; la
-          asignación de escaños la realiza el Jurado Electoral y este sitio no la calcula.
+          El consejo regional se vota por listas en cada provincia. Aquí ves los votos de cada lista. El Jurado Electoral reparte los
+          asientos; nosotros no los calculamos.
         </p>
         <div className="mt-6 space-y-10">
           {getProvinces().map((p) => {

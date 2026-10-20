@@ -13,11 +13,10 @@ export function SiteFooter() {
             {SOURCE_LINE}
           </p>
           <p className="m-0 prose-note">
-            Visualización independiente basada en datos públicos. No es un portal de ONPE, del JNE ni de ninguna entidad
-            del Estado. Las cifras corresponden al cómputo de ONPE; un primer lugar no equivale a autoridad electa o
-            proclamada.
+            Sitio independiente hecho con datos públicos. No es de ONPE, del JNE ni del Estado. Los votos son del conteo de
+            ONPE: ir primero no significa haber sido elegido.
           </p>
-          <p className="m-0">Último corte incluido: {formatDateTime(meta.sourceTimestampMax)}.</p>
+          <p className="m-0">Datos al {formatDateTime(meta.sourceTimestampMax)}.</p>
         </div>
         <div className="space-y-1.5">
           <p className="m-0">

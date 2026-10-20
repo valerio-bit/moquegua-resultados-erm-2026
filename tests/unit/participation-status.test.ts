@@ -57,7 +57,7 @@ describe("estados electorales", () => {
   it("gobierno regional con ≥ 30 %: primer lugar virtual, nunca 'electo'", () => {
     const d = decideStatus({ electionId: 1, ubigeo: "x", countComplete: true, countedActsPct: 100, candidates: cands([["1", 400, 40], ["2", 300, 30]]), secondRoundThresholdPct: 30, proclamations });
     expect(d.statusByOrg.get("1")?.status).toBe("PRIMER_LUGAR_VIRTUAL");
-    expect(d.outcome.note).toMatch(/no es una proclamación/);
+    expect(d.outcome.note).toMatch(/no es una proclamación/i);
   });
 
   it("conteo incompleto: ningún estado definitivo (dato provisional)", () => {

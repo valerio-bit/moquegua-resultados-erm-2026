@@ -1,11 +1,11 @@
 # Resumen final — Resultados Electorales 2026, Moquegua
 
-Fuente de datos electorales: Oficina Nacional de Procesos Electorales (ONPE). Snapshot publicado `2026-10-20_13-58-37` · SHA-256 de contenido `3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8`. Cortes ONPE incluidos: del 20/10/2026 02:46 (Lima) al 20/10/2026 08:30 (Lima).
+Fuente de datos electorales: Oficina Nacional de Procesos Electorales (ONPE). Snapshot publicado `2026-10-20_16-19-15` · SHA-256 de contenido `c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a`. Cortes ONPE incluidos: del 20/10/2026 02:46 (Lima) al 20/10/2026 08:30 (Lima).
 
 ## 1. Qué se construyó
 
-- Aplicación Next.js 16 + TypeScript + Tailwind 4 + Zod, exportada como sitio estático (62 páginas) apto para hosting gratuito (GitHub Pages incluido).
-- Secciones: Inicio, Gobierno Regional, Provincias (pestañas Mariscal Nieto / General Sánchez Cerro / Ilo), Distritos (21 páginas), Partidos (panel + 23 fichas), Participación y ausentismo, Fuentes y metodología, Actualizar / Publicar, Buscar.
+- Aplicación Next.js 16 + TypeScript + Tailwind 4 + Zod, exportada como sitio estático (63 páginas) apto para hosting gratuito (GitHub Pages incluido).
+- Secciones: Inicio (con el resumen "Moquegua en pocas palabras" en lenguaje sencillo), Gobierno Regional, Provincias (pestañas Mariscal Nieto / General Sánchez Cerro / Ilo), Distritos (21 páginas), Partidos (panel + 23 fichas), Explorar (filtro por partido, provincia y elección: quién va primero, votos, votantes y % sobre electores hábiles), Participación y ausentismo, Fuentes y metodología, Actualizar / Publicar, Buscar.
 - Pipeline de datos: Modo A (`npm run data:fetch`, cliente con caché, ritmo máximo, backoff y detección de WAF sin evasión) y Modo B (`npm run data:import` y panel web) con validación previa, snapshots inmutables, manifiestos y comparación de versiones.
 - Validación: 21/21 controles superados, 0 críticos fallidos → versión publicable: sí. `npm run build` se detiene si falla un control crítico.
 
@@ -110,10 +110,12 @@ Todos los números electorales: votos por candidatura, porcentajes de votos vál
 | `npm run lint` | OK, 0 advertencias |
 | `npm run typecheck` | OK |
 | `npm run test` (Vitest) | 46/46 pruebas OK (estados, participación, validaciones, importación CSV/JSON, comparación, buscador, cliente ONPE y dataset real) |
-| `npm run test:e2e` (Playwright, escritorio y móvil) | 53 OK, 1 omitida a propósito (teclado solo en escritorio): Inicio, Gobierno Regional, Mariscal Nieto, General Sánchez Cerro, Ilo, distritos (Torata, Omate, Samegua), Partidos, Participación/Ausentismo, Fuentes, SEO y Actualizar/Publicar. El buscador encuentra Jakelin, Blademir, Prescilio, Torata y Pacocha; "Segunda vuelta" se muestra en el Gobierno Regional. |
-| `npm run build` | OK: validación 21/21 y 62 páginas estáticas en `out/` |
+| `npm run test:e2e` (Playwright, escritorio y móvil) | 61 OK, 1 omitida a propósito (teclado solo en escritorio): Inicio, resumen sencillo, Explorar por partido, Gobierno Regional, Mariscal Nieto, General Sánchez Cerro, Ilo, distritos (Torata, Omate, Samegua), Partidos, Participación/Ausentismo, Fuentes, SEO y Actualizar/Publicar. El buscador encuentra Jakelin, Blademir, Prescilio, Torata y Pacocha; "Segunda vuelta" se muestra en el Gobierno Regional. |
+| `npm run build` | OK: validación 21/21 y 63 páginas estáticas en `out/` |
 
 ## 6. Despliegue en producción (gratis)
+
+**Publicado:** repositorio público https://github.com/valerio-bit/moquegua-resultados-erm-2026 y sitio https://valerio-bit.github.io/moquegua-resultados-erm-2026/ (GitHub Pages, despliegue automático con GitHub Actions en cada push a `main`).
 
 1. Sube el proyecto a un repositorio público de GitHub (rama `main`).
 2. En **Settings → Pages**, elige **Source: GitHub Actions**.

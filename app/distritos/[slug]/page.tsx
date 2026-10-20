@@ -88,9 +88,8 @@ export default async function DistritoPage({ params }: { params: Promise<{ slug:
             Capital de la provincia {p.displayName}
           </h2>
           <p className="prose-note mb-0 mt-2">
-            {d.displayName} es el distrito capital: su gobierno local es la Municipalidad Provincial de {p.displayName}, por lo que ONPE
-            no presenta una alcaldía distrital separada. Consulta los{" "}
-            <Link href={`/provincias/${p.slug}/`}>resultados de la alcaldía provincial</Link>
+            En {d.displayName} gobierna la Municipalidad Provincial de {p.displayName}, así que no hay alcalde distrital aparte. Mira
+            los <Link href={`/provincias/${p.slug}/`}>resultados de la alcaldía provincial</Link>
             {prov ? ` (${prov.results.length} candidaturas)` : ""}.
           </p>
         </section>

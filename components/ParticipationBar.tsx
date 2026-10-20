@@ -12,7 +12,7 @@ export function ParticipationBar({ p, compact = false }: { p: Participation; com
           <p className="m-0 text-sm text-ink-soft">
             Participación
             <InfoTip label="participación">
-              Ciudadanos que votaron ÷ electores hábiles × 100. Incluye a quienes votaron en blanco o nulo.
+              Personas que votaron ÷ personas que podían votar. Incluye votos en blanco y nulos.
             </InfoTip>
           </p>
           <p className="num m-0 text-2xl font-semibold text-accent">{formatPct(p.turnoutPct)}</p>
@@ -22,8 +22,8 @@ export function ParticipationBar({ p, compact = false }: { p: Participation; com
           <p className="m-0 text-sm text-ink-soft">
             Ausentismo
             <InfoTip label="ausentismo">
-              Electores hábiles que no acudieron a votar ÷ electores hábiles × 100. No confundir con votos en blanco, nulos o
-              impugnados: esos ciudadanos sí votaron.
+              Personas que no fueron a votar ÷ personas que podían votar. No confundir con voto en blanco o nulo: esa gente sí
+              votó.
             </InfoTip>
           </p>
           <p className="num m-0 text-2xl font-semibold">{formatPct(p.absenteePct)}</p>
@@ -43,13 +43,13 @@ export function ParticipationBar({ p, compact = false }: { p: Participation; com
       </div>
       {p.provisional && (
         <p className="mt-2 text-sm text-st-parcial">
-          Dato provisional: {formatInt(p.pendingVoters)} electores ({formatPct(p.pendingPct)}) pertenecen a actas aún no
-          contabilizadas y no se cuentan como ausentes.
+          Dato provisional: faltan contar {formatInt(p.pendingVoters)} electores ({formatPct(p.pendingPct)}) de actas observadas. No se
+          cuentan como ausentes.
         </p>
       )}
       {!compact && (
         <p className="mt-2 text-xs text-ink-soft">
-          Fuente: ONPE, Participación ciudadana, corte del {formatDateTime(p.sourceTimestamp)}. Solo considera actas contabilizadas.
+          Fuente: ONPE, participación ciudadana, datos al {formatDateTime(p.sourceTimestamp)}. Solo cuenta actas ya contadas.
         </p>
       )}
     </div>

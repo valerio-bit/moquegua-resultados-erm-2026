@@ -1,0 +1,28 @@
+{
+  "before": {
+    "snapshotId": "2026-10-20_13-58-37",
+    "snapshotHash": "3f870a617f960994382398c7365b479d11feba8ae127351afb1c1df3aefd50a8",
+    "generatedAt": "2026-10-20T13:58:37.924Z",
+    "sourceTimestampMax": "2026-10-20T13:30:27.267Z"
+  },
+  "after": {
+    "snapshotId": "2026-10-20_16-19-15",
+    "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a",
+    "generatedAt": "2026-10-20T16:19:15.920Z",
+    "sourceTimestampMax": "2026-10-20T13:30:27.267Z"
+  },
+  "identical": false,
+  "counts": {
+    "added": 0,
+    "removed": 0,
+    "modified": 0,
+    "votesChanged": 0,
+    "pctChanged": 0,
+    "statusChanged": 0
+  },
+  "added": [],
+  "removed": [],
+  "modified": [],
+  "units": [],
+  "participationChanged": []
+}

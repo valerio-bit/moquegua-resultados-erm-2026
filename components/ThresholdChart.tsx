@@ -69,8 +69,8 @@ export function ThresholdChart({
         </ol>
       </div>
       <figcaption className="mt-3 text-sm text-ink-soft">
-        Porcentaje de votos válidos, cómputo ONPE. La línea marca el {threshold} % que exige la ley para ganar en primera vuelta.
-        {results.length > limit && ` Se muestran las ${limit} fórmulas más votadas de ${results.length}.`}
+        % de votos válidos según ONPE. La línea marca el {threshold} % que hace falta para ganar sin segunda vuelta.
+        {results.length > limit && ` Se ven los ${limit} primeros de ${results.length}.`}
       </figcaption>
     </figure>
   );

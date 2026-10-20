@@ -17,15 +17,19 @@ export default function DistritosPage() {
   const orgs = orgMap();
   const provinces = getProvinces();
   const withElection = provinces.flatMap((p) => p.districts).filter((d) => d.hasDistrictElection).length;
+  const capitals = provinces
+    .flatMap((p) => p.districts)
+    .filter((d) => !d.hasDistrictElection)
+    .map((d) => d.displayName)
+    .join(", ");
   return (
     <div className="space-y-8">
       <Breadcrumbs items={[{ href: "/", label: "Inicio" }, { label: "Distritos" }]} />
       <div>
         <h1 className="m-0 text-4xl">Distritos de Moquegua</h1>
         <p className="prose-note mt-3 text-ink-soft">
-          ONPE organiza {provinces.flatMap((p) => p.districts).length} distritos en tres provincias. {withElection} eligen alcaldía
-          distrital; los distritos capitales (sede de cada provincia) son administrados por la municipalidad provincial, por lo que
-          no tienen una alcaldía distrital aparte.
+          Moquegua tiene {provinces.flatMap((p) => p.districts).length} distritos en 3 provincias. {withElection} eligen alcalde
+          distrital. Las capitales ({capitals}) no: ahí gobierna la municipalidad provincial.
         </p>
       </div>
       {provinces.map((p) => (
@@ -56,7 +60,7 @@ export default function DistritosPage() {
                       <StatusBadge status={statusKey(top, de.unit.countComplete)} />
                     </div>
                   ) : (
-                    <p className="m-0 mt-1 text-sm text-ink-soft">Capital provincial. Participación {dp ? formatPct(dp.turnoutPct) : "—"}.</p>
+                    <p className="m-0 mt-1 text-sm text-ink-soft">Capital: gobierna la municipalidad provincial. Participación {dp ? formatPct(dp.turnoutPct) : "—"}.</p>
                   )}
                 </li>
               );

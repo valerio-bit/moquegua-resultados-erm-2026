@@ -1,0 +1,184 @@
+{
+  "generatedAt": "2026-10-20T16:19:15.920Z",
+  "snapshotId": "2026-10-20_16-19-15",
+  "snapshotHash": "c5ea728148478ef29221e1f71a736ac84537bfa9e29196dd2f47ab7573e1632a",
+  "passed": true,
+  "publishable": true,
+  "summary": {
+    "checks": 21,
+    "passed": 21,
+    "failedCritical": 0,
+    "failedWarnings": 0
+  },
+  "checks": [
+    {
+      "id": "schema",
+      "title": "Estructura del dataset (Zod)",
+      "severity": "critical",
+      "passed": true,
+      "checkedItems": 1,
+      "failures": []
+    },
+    {
+      "id": "01-source-url",
+      "title": "Todo registro tiene sourceUrl",
+      "severity": "critical",
+      "passed": true,
+      "checkedItems": 214,
+      "failures": []
+    },
+    {
+      "id": "02-source-timestamp",
+      "title": "Todo registro tiene sourceTimestamp",
+      "severity": "critical",
+      "passed": true,
+      "checkedItems": 214,
+      "failures": []
+    },
+    {
+      "id": "03-votes-non-negative",
+      "title": "Votos mayores o iguales a 0",
+      "severity": "critical",
+      "passed": true,
+      "checkedItems": 189,
+      "failures": []
+    },
+    {
+      "id": "04-pct-range",
+      "title": "Porcentajes entre 0 y 100",
+      "severity": "critical",
+      "passed": true,
+      "checkedItems": 189,
+      "failures": []
+    },
+    {
+      "id": "05-rank",
+      "title": "Ranking coherente con los votos",
+      "severity": "critical",
+      "passed": true,
+      "checkedItems": 164,
+      "failures": []
+    },
+    {
+      "id": "06-sum-valid",
+      "title": "Suma de candidaturas = votos válidos",
+      "severity": "critical",
+      "passed": true,
+      "checkedItems": 25,
+      "failures": []
+    },
+    {
+      "id": "07-cast-reconciliation",
+      "title": "Válidos + blancos + nulos (+ impugnados) = votos emitidos (esquema ONPE)",
+      "severity": "critical",
+      "passed": true,
+      "checkedItems": 25,
+      "failures": []
+    },
+    {
+      "id": "08-eligible-ge-voted",
+      "title": "Electores hábiles ≥ ciudadanos que votaron",
+      "severity": "critical",
+      "passed": true,
+      "checkedItems": 50,
+      "failures": []
+    },
+    {
+      "id": "09-absentees",
+      "title": "Ausentes = hábiles − votaron (descontando electores pendientes de actas no contabilizadas)",
+      "severity": "critical",
+      "passed": true,
+      "checkedItems": 72,
+      "failures": []
+    },
+    {
+      "id": "10-sum-100",
+      "title": "Participación + ausentismo (+ pendientes) ≈ 100 %",
+      "severity": "critical",
+      "passed": true,
+      "checkedItems": 25,
+      "failures": []
+    },
+    {
+      "id": "11-proclamation-source",
+      "title": "PROCLAMADO_JNE_JEE solo con fuente JNE/JEE",
+      "severity": "critical",
+      "passed": true,
+      "checkedItems": 164,
+      "failures": []
+    },
+    {
+      "id": "12-publish-gate",
+      "title": "Totales cuadran entre niveles territoriales",
+      "severity": "critical",
+      "passed": true,
+      "checkedItems": 12,
+      "failures": []
+    },
+    {
+      "id": "pct-recompute",
+      "title": "Porcentaje publicado = votos / válidos × 100",
+      "severity": "critical",
+      "passed": true,
+      "checkedItems": 164,
+      "failures": []
+    },
+    {
+      "id": "status-rules",
+      "title": "Estados coherentes con el avance de actas y la regla del 30 %",
+      "severity": "critical",
+      "passed": true,
+      "checkedItems": 43,
+      "failures": []
+    },
+    {
+      "id": "unique-records",
+      "title": "Sin registros duplicados",
+      "severity": "critical",
+      "passed": true,
+      "checkedItems": 328,
+      "failures": []
+    },
+    {
+      "id": "snapshot-hash",
+      "title": "Hash SHA-256 del snapshot íntegro",
+      "severity": "critical",
+      "passed": true,
+      "checkedItems": 2,
+      "failures": []
+    },
+    {
+      "id": "coverage",
+      "title": "Cobertura territorial completa (3 provincias y todos los distritos con elección)",
+      "severity": "critical",
+      "passed": true,
+      "checkedItems": 53,
+      "failures": []
+    },
+    {
+      "id": "blank-null-available",
+      "title": "Desglose de blancos y nulos disponible",
+      "severity": "warning",
+      "passed": true,
+      "checkedItems": 25,
+      "failures": []
+    },
+    {
+      "id": "onpe-participation-pct",
+      "title": "Participación calculada = porcentaje publicado por ONPE",
+      "severity": "warning",
+      "passed": true,
+      "checkedItems": 50,
+      "failures": []
+    },
+    {
+      "id": "cross-election",
+      "title": "Votos emitidos de gobernador = suma de emitidos del consejo regional (si ambos están al 100 %)",
+      "severity": "warning",
+      "passed": true,
+      "checkedItems": 1,
+      "failures": []
+    }
+  ],
+  "buildIssues": []
+}

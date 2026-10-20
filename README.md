@@ -4,6 +4,8 @@ Visualización independiente de los resultados públicos de las **Elecciones Reg
 
 **Fuente de datos electorales: Oficina Nacional de Procesos Electorales (ONPE).**
 
+Sitio publicado: https://valerio-bit.github.io/moquegua-resultados-erm-2026/
+
 > Este sitio no es un portal de ONPE, del JNE ni de ninguna entidad pública, y no usa sus logotipos institucionales. Las cifras son del cómputo de ONPE. Un primer lugar en el cómputo **no** equivale a autoridad electa ni proclamada: solo se marca "proclamado" con una fuente verificable del JNE/JEE.
 
 ## Qué incluye
@@ -11,6 +13,7 @@ Visualización independiente de los resultados públicos de las **Elecciones Reg
 - 25 elecciones de Moquegua: gobernador regional (11 fórmulas), consejo regional (3 circunscripciones), 3 alcaldías provinciales y 18 alcaldías distritales (las capitales provinciales no duplican alcaldía).
 - 164 candidaturas con votos, porcentajes, ranking y estado; votos válidos, blancos, nulos y emitidos; avance de actas y actas en el JEE.
 - Participación y ausentismo de la región, las 3 provincias y los 21 distritos, sin confundir ausentismo con votos blancos, nulos o impugnados.
+- Resumen "Moquegua en pocas palabras" en lenguaje sencillo y página **Explorar**: eliges un partido y ves, provincia por provincia, dónde postula, quién va primero, con cuántos votos, cómo votó la gente (hábiles, emitidos, válidos, blancos, nulos, ausentes) y su % sobre electores hábiles.
 - Segunda vuelta regional: regla del 30 % de votos válidos (JNE, segunda elección del 6 de diciembre de 2026).
 - Símbolos de las 23 organizaciones con procedencia y SHA-256.
 - Panel **Actualizar / Publicar** (en el navegador): importar JSON/CSV, comparar, validar, generar snapshot, generar versión publicable (bloqueada si falla una validación crítica) y exportar ZIP.

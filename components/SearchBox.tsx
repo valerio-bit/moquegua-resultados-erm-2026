@@ -12,7 +12,7 @@ export function SearchBox({ index, autoFocus = false, initialQuery = "" }: { ind
   return (
     <div role="search" className="block" aria-label="Buscar en los resultados">
       <label htmlFor={id} className="mb-1.5 block text-sm font-medium text-ink">
-        Busca un candidato, partido, provincia o distrito
+        Escribe un nombre, partido, provincia o distrito
       </label>
       <input
         id={id}
@@ -31,7 +31,7 @@ export function SearchBox({ index, autoFocus = false, initialQuery = "" }: { ind
       </p>
       {active && (
         <ul className="m-0 mt-2 list-none divide-y divide-rule rounded-sm border border-rule bg-surface p-0" data-testid="search-results">
-          {results.length === 0 && <li className="px-3 py-2.5 text-sm text-ink-soft">Sin coincidencias. Prueba con otra palabra o sin tildes.</li>}
+          {results.length === 0 && <li className="px-3 py-2.5 text-sm text-ink-soft">No encontramos nada. Prueba con otra palabra.</li>}
           {results.map((r) => (
             <li key={`${r.type}-${r.href}-${r.title}`}>
               <Link href={r.href} className="block px-3 py-2.5 text-ink no-underline hover:bg-accent-soft">

@@ -4,27 +4,27 @@ const STYLE: Record<Status | "PARCIAL", { label: string; className: string; desc
   COMPUTO_ONPE: {
     label: "Cómputo ONPE",
     className: "bg-st-computo-bg text-st-computo",
-    description: "Votos según el cómputo de ONPE. No implica ningún resultado definitivo.",
+    description: "Votos contados por ONPE. Todavía no es un resultado final.",
   },
   PARCIAL: {
     label: "Primer lugar parcial",
     className: "bg-st-parcial-bg text-st-parcial",
-    description: "Encabeza el cómputo, pero aún hay actas sin contabilizar (por ejemplo, enviadas al JEE).",
+    description: "Va primero, pero faltan actas por contar. Puede cambiar.",
   },
   PRIMER_LUGAR_VIRTUAL: {
     label: "Primer lugar virtual",
     className: "bg-st-virtual-bg text-st-virtual",
-    description: "Primer lugar con el 100 % de actas contabilizadas por ONPE. No es una proclamación: la hace el JEE/JNE.",
+    description: "Va primero con todas las actas contadas. Falta que el Jurado Electoral lo proclame.",
   },
   SEGUNDA_VUELTA: {
     label: "Segunda vuelta",
     className: "bg-st-segunda-bg text-st-segunda",
-    description: "Ninguna fórmula alcanzó el 30 % de votos válidos: las dos más votadas van a una segunda elección.",
+    description: "Nadie llegó al 30 % de votos válidos. Los dos más votados van a otra votación.",
   },
   PROCLAMADO_JNE_JEE: {
     label: "Proclamado JNE/JEE",
     className: "bg-st-proclamado-bg text-st-proclamado",
-    description: "Proclamado por el Jurado Electoral, con fuente verificable del JNE/JEE.",
+    description: "El Jurado Electoral ya lo proclamó. Hay una fuente del JNE que lo respalda.",
   },
 };
 

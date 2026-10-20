@@ -62,7 +62,7 @@ export default async function ProvinciaPage({ params }: { params: Promise<{ slug
             <div className="mt-4 flex items-start gap-4 rounded-sm border border-rule bg-surface p-4">
               <PartyLogo org={firstOrg} fallbackName={first.organizationName} size={64} />
               <div>
-                <p className="m-0 text-sm text-ink-soft">{first.isLeading ? "Encabeza el cómputo ONPE" : "Primer lugar"}</p>
+                <p className="m-0 text-sm text-ink-soft">Va primero (conteo ONPE)</p>
                 <p className="m-0 font-serif text-2xl font-semibold leading-tight">
                   {first.candidateName ? titleCase(first.candidateName) : "Sin nombre en ONPE"}
                 </p>
@@ -110,7 +110,7 @@ export default async function ProvinciaPage({ params }: { params: Promise<{ slug
         </h2>
         <div className="table-wrap mt-4">
           <table className="data-table">
-            <caption>Primer lugar distrital en el cómputo ONPE y participación por distrito.</caption>
+            <caption>Quién va primero en cada distrito y cuánta gente votó.</caption>
             <thead>
               <tr>
                 <th scope="col">Distrito</th>
@@ -145,7 +145,7 @@ export default async function ProvinciaPage({ params }: { params: Promise<{ slug
                           </span>
                         </span>
                       ) : (
-                        <span className="text-sm text-ink-soft">Capital provincial: su alcaldía es la provincial</span>
+                        <span className="text-sm text-ink-soft">Capital: aquí gobierna la municipalidad provincial</span>
                       )}
                     </td>
                     <td className="right num">{top ? formatPct(top.validVotePct) : "—"}</td>
@@ -195,7 +195,7 @@ export default async function ProvinciaPage({ params }: { params: Promise<{ slug
             Consejo Regional en {p.displayName}
           </h2>
           <p className="prose-note mt-3 text-sm text-ink-soft">
-            Votos por lista en esta circunscripción. La asignación de consejeros la realiza el Jurado Electoral.
+            Votos por lista en esta provincia. El Jurado Electoral reparte los asientos.
           </p>
           <ResultsTable unit={council.unit} results={council.results} orgs={orgs} showCandidate={false} caption={`Consejo Regional, ${p.displayName}.`} />
           <SourceNote unit={council.unit} />

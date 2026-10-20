@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/provincias/",
     "/distritos/",
     "/partidos/",
+    "/explorar/",
     "/participacion/",
     "/fuentes-y-metodologia/",
     "/buscar/",

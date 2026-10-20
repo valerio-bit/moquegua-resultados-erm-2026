@@ -70,7 +70,7 @@ export function decideStatus(params: {
       outcome: {
         kind: "PROCLAMADO",
         organizationCodes: procl.map((p) => p.organizationCode),
-        note: "Resultado proclamado por el Jurado Electoral (ver fuente JNE/JEE).",
+        note: "El Jurado Electoral ya proclamó este resultado (ver fuente del JNE).",
         sourceUrl: procl[0]?.sourceUrl,
       },
       statusByOrg,
@@ -78,7 +78,7 @@ export function decideStatus(params: {
     };
   }
 
-  const partial = `Cómputo ONPE al ${params.countedActsPct.toLocaleString("es-PE", { maximumFractionDigits: 3 })} % de actas contabilizadas; resultado aún no definitivo.`;
+  const partial = `ONPE contó el ${params.countedActsPct.toLocaleString("es-PE", { maximumFractionDigits: 3 })} % de las actas. Falta contar el resto: el resultado puede cambiar.`;
 
   // 2) Consejo regional: listas con reparto proporcional (no se calcula aquí).
   if (electionId === 2) {
@@ -87,8 +87,8 @@ export function decideStatus(params: {
         kind: "REPARTO_PROPORCIONAL",
         organizationCodes: leaders,
         note: countComplete
-          ? "Votación por listas. La asignación de consejeros la realiza el Jurado Electoral; este sitio no calcula escaños."
-          : `${partial} La asignación de consejeros la realiza el Jurado Electoral.`,
+          ? "Se vota por listas. El Jurado Electoral reparte los asientos; aquí no se calculan."
+          : `${partial} El Jurado Electoral reparte los asientos.`,
       },
       statusByOrg,
       leaders,
@@ -100,7 +100,7 @@ export function decideStatus(params: {
       outcome: {
         kind: "EN_COMPUTO",
         organizationCodes: leaders,
-        note: leaders.length > 1 ? "Empate en el primer lugar según el cómputo ONPE." : partial,
+        note: leaders.length > 1 ? "Hay un empate en el primer lugar." : partial,
       },
       statusByOrg,
       leaders,
@@ -112,13 +112,13 @@ export function decideStatus(params: {
     if (top.validVotePct >= params.secondRoundThresholdPct) {
       statusByOrg.set(top.organizationCode, {
         status: "PRIMER_LUGAR_VIRTUAL",
-        note: `Supera el ${params.secondRoundThresholdPct} % de votos válidos en el cómputo ONPE al 100 %. Pendiente de proclamación por el JEE/JNE.`,
+        note: `Pasa el ${params.secondRoundThresholdPct} % de votos válidos con todas las actas contadas. Falta la proclamación del Jurado Electoral.`,
       });
       return {
         outcome: {
           kind: "PRIMER_LUGAR_VIRTUAL",
           organizationCodes: [top.organizationCode],
-          note: "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación.",
+          note: "Todas las actas están contadas. Aún no es una proclamación.",
         },
         statusByOrg,
         leaders,
@@ -131,13 +131,13 @@ export function decideStatus(params: {
         outcome: {
           kind: "EN_COMPUTO",
           organizationCodes: leaders,
-          note: "Nadie alcanza el umbral y no es posible determinar el segundo lugar (empate).",
+          note: "Nadie llegó al umbral y hay empate en el segundo lugar.",
         },
         statusByOrg,
         leaders,
       };
     }
-    const note = `Ninguna fórmula alcanza el ${params.secondRoundThresholdPct} % de votos válidos en el cómputo ONPE al 100 %: corresponde segunda elección entre las dos más votadas. Pendiente de proclamación y convocatoria oficial del JNE.`;
+    const note = `Con todas las actas contadas, nadie llegó al ${params.secondRoundThresholdPct} % de votos válidos. Los dos primeros irían a segunda vuelta. Falta que el JNE lo proclame y convoque.`;
     statusByOrg.set(top.organizationCode, { status: "SEGUNDA_VUELTA", note });
     statusByOrg.set(second.organizationCode, { status: "SEGUNDA_VUELTA", note });
     return {
@@ -150,13 +150,13 @@ export function decideStatus(params: {
   // 4) Alcaldías: mayoría simple, una sola vuelta.
   statusByOrg.set(top.organizationCode, {
     status: "PRIMER_LUGAR_VIRTUAL",
-    note: "Primer lugar en el cómputo ONPE al 100 % de actas. Pendiente de proclamación por el JEE.",
+    note: "Va primero con todas las actas contadas. Falta la proclamación del Jurado Electoral.",
   });
   return {
     outcome: {
       kind: "PRIMER_LUGAR_VIRTUAL",
       organizationCodes: [top.organizationCode],
-      note: "Primer lugar en el cómputo ONPE al 100 %; no es una proclamación.",
+      note: "Todas las actas están contadas. Aún no es una proclamación.",
     },
     statusByOrg,
     leaders,

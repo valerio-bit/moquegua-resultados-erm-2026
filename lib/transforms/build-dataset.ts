@@ -436,9 +436,9 @@ export async function buildDataset(input: BuildInput): Promise<BuildOutput> {
         statusNote:
           st.note ??
           (electionId === 2
-            ? "Lista de candidatos al consejo regional: ONPE no publica los nombres en este servicio."
+            ? "Lista para el consejo regional. ONPE no publica aquí los nombres."
             : name === ""
-              ? "ONPE publica votos para esta organización sin consignar el nombre del candidato."
+              ? "ONPE muestra los votos de este partido sin el nombre del candidato."
               : undefined),
         statusSourceUrl: st.sourceUrl,
       });

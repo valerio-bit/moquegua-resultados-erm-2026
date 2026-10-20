@@ -15,8 +15,7 @@ export default function ProvinciasPage() {
       <Breadcrumbs items={[{ href: "/", label: "Inicio" }, { label: "Provincias" }]} />
       <h1 className="m-0 text-4xl">Provincias de Moquegua</h1>
       <p className="prose-note m-0 text-ink-soft">
-        Elige una provincia para ver todas las candidaturas a la alcaldía provincial, los resultados de sus distritos, la
-        participación y el Consejo Regional.
+        Elige una provincia para ver sus candidatos, sus distritos, cuánta gente votó y el consejo regional.
       </p>
       <ProvinceTabs />
       <ProvinceSummary />

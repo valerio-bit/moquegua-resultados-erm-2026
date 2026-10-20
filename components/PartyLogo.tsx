@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element -- exportación estática: imágenes sin optimizador */
-import type { Organization } from "@/lib/schemas";
 import { asset } from "@/lib/site";
 
 function initials(name: string): string {
@@ -8,6 +7,13 @@ function initials(name: string): string {
     .split(/\s+/)
     .filter((w) => w.length > 2 && !["del", "las", "los", "para", "por"].includes(w.toLowerCase()));
   return (words.length >= 2 ? words.slice(0, 3).map((w) => w[0]) : [name.slice(0, 2)]).join("").toUpperCase();
+}
+
+/** Basta con nombre y logo: sirve para `Organization` y para los datos compactos del explorador. */
+export interface LogoOrg {
+  displayName: string;
+  shortName?: string;
+  logo?: { file: string };
 }
 
 /**
@@ -19,7 +25,7 @@ export function PartyLogo({
   fallbackName,
   size = 36,
 }: {
-  org?: Organization;
+  org?: LogoOrg;
   fallbackName?: string;
   size?: number;
 }) {

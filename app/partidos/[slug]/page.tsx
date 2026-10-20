@@ -43,6 +43,11 @@ export default async function PartidoPage({ params }: { params: Promise<{ slug: 
           <div>
             <h1 className="m-0 text-3xl sm:text-4xl">{org.displayName}</h1>
             <p className="m-0 text-sm text-ink-soft">Nombre en ONPE: {org.name}</p>
+            <p className="m-0 mt-1 text-sm">
+              <Link href={`/explorar/?partido=${org.slug}`} className="font-semibold">
+                Ver este partido provincia por provincia
+              </Link>
+            </p>
           </div>
         </div>
       </div>
@@ -67,7 +72,7 @@ export default async function PartidoPage({ params }: { params: Promise<{ slug: 
         </h2>
         <div className="table-wrap mt-4">
           <table className="data-table">
-            <caption>Cada fila es una elección en una circunscripción distinta (cómputo ONPE).</caption>
+            <caption>Cada fila es una elección distinta (conteo ONPE). «% de hábiles» = votos ÷ personas que podían votar (cálculo nuestro).</caption>
             <thead>
               <tr>
                 <th scope="col">Elección</th>
@@ -78,6 +83,9 @@ export default async function PartidoPage({ params }: { params: Promise<{ slug: 
                 </th>
                 <th scope="col" className="right">
                   % válidos
+                </th>
+                <th scope="col" className="right">
+                  % de hábiles
                 </th>
                 <th scope="col" className="right">
                   Puesto
@@ -97,6 +105,7 @@ export default async function PartidoPage({ params }: { params: Promise<{ slug: 
                   </td>
                   <td className="right num">{formatInt(r.votes)}</td>
                   <td className="right num">{formatPct(r.validVotePct)}</td>
+                  <td className="right num">{r.eligibleVoters ? formatPct((r.votes / r.eligibleVoters) * 100) : "—"}</td>
                   <td className="right num">{r.rank}</td>
                   <td>
                     <StatusBadge status={statusKey(r, units.get(r.unitId)?.countComplete ?? false)} />
@@ -113,9 +122,8 @@ export default async function PartidoPage({ params }: { params: Promise<{ slug: 
           Votos por tipo de elección
         </h2>
         <p className="prose-note mt-3 text-sm text-ink-soft">
-          Metodología: la columna «Suma descriptiva» agrega votos obtenidos en circunscripciones distintas (por ejemplo, varios
-          distritos). No es el resultado de una única elección ni sirve para comparar fuerzas entre circunscripciones de distinto
-          tamaño; solo el gobierno regional es una elección única en toda la región.
+          Ojo con la suma descriptiva: junta votos de lugares distintos (por ejemplo, varios distritos). Sirve como referencia, no es
+          el resultado de una elección. Solo la de gobernador es una sola elección para toda la región.
         </p>
         <div className="table-wrap">
           <table className="data-table">

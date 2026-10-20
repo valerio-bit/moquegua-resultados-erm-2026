@@ -19,9 +19,13 @@ export default function PartidosPage() {
       <Breadcrumbs items={[{ href: "/", label: "Inicio" }, { label: "Partidos" }]} />
       <h1 className="m-0 text-4xl">Organizaciones políticas</h1>
       <p className="prose-note m-0 text-ink-soft">
-        {stats.length} organizaciones obtuvieron votos en Moquegua. Los conteos de alcaldías son primeros lugares en el cómputo ONPE,
-        no autoridades electas. Los votos se muestran por elección y circunscripción: sumar votos de circunscripciones distintas no
-        produce un resultado electoral (ver la metodología en cada ficha).
+        {stats.length} partidos recibieron votos en Moquegua. Las alcaldías que se cuentan aquí son primeros lugares del conteo, no
+        autoridades electas.
+      </p>
+      <p className="m-0">
+        <Link href="/explorar/" className="font-semibold">
+          Ver un partido provincia por provincia
+        </Link>
       </p>
       <div className="table-wrap">
         <table className="data-table" data-testid="party-dashboard">
